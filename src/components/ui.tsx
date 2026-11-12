@@ -120,3 +120,29 @@ export function ProgressBar({ value, label, className = '' }: { value: number; l
     </div>
   );
 }
+
+/**
+ * Kickers are set in uppercase; keep the "s" of decades ("1830s") and the
+ * "c." of circa dates lowercase so they don't read as "1830S" / "C. 1800".
+ */
+export function CaseSafe({ text }: { text: string }) {
+  const parts = text.split(/(\d0s\b|\bc\.)/g);
+  return (
+    <>
+      {parts.map((p, i) =>
+        /^\d0s$/.test(p) ? (
+          <span key={i}>
+            {p.slice(0, -1)}
+            <span className="normal-case">s</span>
+          </span>
+        ) : p === 'c.' ? (
+          <span key={i} className="normal-case">
+            c.
+          </span>
+        ) : (
+          p
+        ),
+      )}
+    </>
+  );
+}
