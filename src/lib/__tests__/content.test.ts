@@ -51,3 +51,46 @@ describe('Story Mode content', () => {
     });
   }
 });
+
+import { CAUSE_LINKS, CAUSE_NODES, EXPERT_CHAINS } from '../../unit/causation';
+import { DATE_OVERRIDES, EXTRA_DATES } from '../../unit/timeline';
+import { timelineEvents } from '../timeline';
+
+describe('causation web content', () => {
+  const ids = new Set(CAUSE_NODES.map((n) => n.id));
+  it('has unique nodes whose terms all resolve', () => {
+    expect(ids.size).toBe(CAUSE_NODES.length);
+    for (const n of CAUSE_NODES) for (const r of n.terms) expect(resolveRef(r), `${n.id}: ${r}`).toBeDefined();
+  });
+  it('links only existing nodes, once each', () => {
+    const seen = new Set<string>();
+    for (const l of CAUSE_LINKS) {
+      expect(ids.has(l.from), l.from).toBe(true);
+      expect(ids.has(l.to), l.to).toBe(true);
+      expect(seen.has(`${l.from}>${l.to}`)).toBe(false);
+      seen.add(`${l.from}>${l.to}`);
+    }
+  });
+  it('builds every expert chain from real links', () => {
+    const has = (a: string, b: string) => CAUSE_LINKS.some((l) => l.from === a && l.to === b);
+    for (const c of EXPERT_CHAINS) {
+      for (let i = 0; i < c.nodes.length - 1; i++) expect(has(c.nodes[i], c.nodes[i + 1]), `${c.id}: ${c.nodes[i]} → ${c.nodes[i + 1]}`).toBe(true);
+      for (const d of c.decoys) {
+        expect(ids.has(d), d).toBe(true);
+        expect(c.nodes).not.toContain(d);
+      }
+    }
+  });
+});
+
+describe('timeline content', () => {
+  it('resolves every curated date reference', () => {
+    for (const ref of [...Object.keys(DATE_OVERRIDES), ...Object.keys(EXTRA_DATES)]) expect(resolveRef(ref), ref).toBeDefined();
+  });
+  it('produces a sorted list of dated events', () => {
+    const events = timelineEvents();
+    expect(events.length).toBeGreaterThan(100);
+    for (let i = 1; i < events.length; i++) expect(events[i].start).toBeGreaterThanOrEqual(events[i - 1].start);
+    expect(events.find((e) => e.term.term === '1832 Jefferson dinner toasts')).toBeUndefined();
+  });
+});

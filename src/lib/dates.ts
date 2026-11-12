@@ -51,3 +51,8 @@ export function parseTermDate(name: string): ParsedDate | null {
   const label = monthLabel ?? listLabel ?? (start === end ? String(start) : `${start}–${end}`);
   return end > start ? { start: start + fraction, end: end + 0.99, label } : { start: start + fraction, label };
 }
+
+/** Hide years (for ordering games): "Panic of 1837" → "Panic of ····". */
+export function maskYears(text: string): string {
+  return text.replace(/\s*\([^)]*\b1[6-9]\d{2}s?\b[^)]*\)/g, '').replace(/\b1[6-9]\d{2}s?\b/g, '····');
+}
