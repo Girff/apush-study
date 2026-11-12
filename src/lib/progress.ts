@@ -288,10 +288,11 @@ function evaluateBadges(s: ProgressState): ProgressState {
   return { ...s, badges };
 }
 
-export function awardBadge(id: string) {
+/** Award a badge. `quiet` keeps the notice plain (used when the context is a tragic event). */
+export function awardBadge(id: string, opts: { quiet?: boolean } = {}) {
   if (state.badges[id] !== undefined) return;
   const def = ALL_BADGES.find((b) => b.id === id);
-  if (def) notify({ kind: 'badge', title: def.name, body: def.description, solemn: def.solemn });
+  if (def) notify({ kind: 'badge', title: def.name, body: def.description, solemn: def.solemn || opts.quiet });
   commit({ ...state, badges: { ...state.badges, [id]: Date.now() } });
 }
 

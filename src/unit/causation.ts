@@ -121,6 +121,9 @@ export const CAUSE_LINKS: CauseLink[] = [
   { from: 'immigration', to: 'nativism', why: 'Hostility toward Catholic and immigrant newcomers grew into nativism.' },
 ];
 
+/** Nodes about removal, slavery and violence: chains that use them never trigger celebratory effects. */
+export const SOLEMN_NODES = new Set(['removal', 'trail', 'slaveTrade', 'creekCession', 'vesey']);
+
 export const EXPERT_CHAINS: ExpertChain[] = [
   {
     id: 'cotton-removal',
