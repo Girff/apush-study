@@ -19,8 +19,8 @@ export function detectTerms(text: string): Term[] {
 
 export default function SaqPage() {
   usePageMeta('SAQ Practice', 'SAQ Practice');
-  const [id, setId] = useState(SAQS[0].id);
-  const prompt = SAQS.find((s) => s.id === id)!;
+  const [id, setId] = useState(SAQS[0]?.id ?? '');
+  const prompt = SAQS.find((s) => s.id === id);
   return (
     <div className="wrap">
       <PageHeader
@@ -29,6 +29,12 @@ export default function SaqPage() {
         lede="AP short-answer questions have three parts, a point each. Write your answers, then grade yourself against the rubric and a model answer."
         motif="petition"
       />
+      {!prompt ? (
+      <p className="mt-8 rounded border border-dashed border-rule-strong px-4 py-6 text-center text-sm text-muted">
+        No content is configured for this game in the current unit. Add some in <code>src/unit/</code> (see README).
+      </p>
+      ) : (
+      <>
       <div className="mt-6">
         <label htmlFor="saq-pick" className="mb-1 block text-sm font-semibold">
           Prompt
@@ -42,6 +48,8 @@ export default function SaqPage() {
         </select>
       </div>
       <Saq key={id} prompt={prompt} />
+      </>
+      )}
     </div>
   );
 }

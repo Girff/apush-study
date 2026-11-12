@@ -1,7 +1,7 @@
 /** Small shared presentational pieces. */
 import { type ReactNode, useEffect } from 'react';
 import { useLocation } from 'react-router';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { m, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import { setLastVisited } from '../lib/progress';
 import { useReducedMotion } from '../lib/prefs';
@@ -31,7 +31,7 @@ export function InkReveal({ children, className, delay = 0 }: { children: ReactN
   const reduce = useReducedMotion();
   if (reduce) return <div className={className}>{children}</div>;
   return (
-    <motion.div
+    <m.div
       className={className}
       initial={{ opacity: 0, filter: 'blur(5px)', y: 8 }}
       whileInView={{ opacity: 1, filter: 'blur(0px)', y: 0 }}
@@ -39,7 +39,7 @@ export function InkReveal({ children, className, delay = 0 }: { children: ReactN
       transition={{ duration: 0.75, delay, ease: [0.2, 0.7, 0.2, 1] }}
     >
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 
@@ -50,9 +50,9 @@ export function Parallax({ children, strength = 30, className }: { children: Rea
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
   const y = useTransform(scrollYProgress, [0, 1], [strength, -strength]);
   return (
-    <motion.div ref={ref} className={className} style={reduce ? undefined : { y }}>
+    <m.div ref={ref} className={className} style={reduce ? undefined : { y }}>
       {children}
-    </motion.div>
+    </m.div>
   );
 }
 

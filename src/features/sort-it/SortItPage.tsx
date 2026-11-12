@@ -13,8 +13,8 @@ import { SORT_SETS, type SortSet } from '../../unit/games';
 
 export default function SortItPage() {
   usePageMeta('Sort It', 'Sort It');
-  const [id, setId] = useState(SORT_SETS[0].id);
-  const set = SORT_SETS.find((s) => s.id === id)!;
+  const [id, setId] = useState(SORT_SETS[0]?.id ?? '');
+  const set = SORT_SETS.find((s) => s.id === id);
   return (
     <div className="wrap">
       <PageHeader
@@ -23,6 +23,12 @@ export default function SortItPage() {
         lede="Drag each term into the right bucket. No mouse? Focus a card and press a number key, or use its buttons."
         motif="loom"
       />
+      {!set ? (
+      <p className="mt-8 rounded border border-dashed border-rule-strong px-4 py-6 text-center text-sm text-muted">
+        No content is configured for this game in the current unit. Add some in <code>src/unit/</code> (see README).
+      </p>
+      ) : (
+      <>
       <div className="mt-6">
         <label htmlFor="sort-pick" className="mb-1 block text-sm font-semibold">
           Sorting challenge
@@ -36,6 +42,8 @@ export default function SortItPage() {
         </select>
       </div>
       <Sorter key={id} set={set} />
+      </>
+      )}
     </div>
   );
 }

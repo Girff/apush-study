@@ -126,8 +126,12 @@ export const PEOPLE: Person[] = [
     id: 'smith',
     answer: 'Joseph Smith',
     aliases: ['joseph smith', 'smith'],
-    clues: ['My followers built a city called Nauvoo on the Mississippi.', 'A mob killed me in 1844.', 'In 1830 I published the Book of Mormon and founded the Church of Jesus Christ of Latter-day Saints.'],
-    terms: ['4.10:Joseph Smith / Book of Mormon (1830)', '4.10:Nauvoo, Illinois', "4.10:Smith's murder (1844)"],
+    clues: [
+      'The church I founded publicly acknowledged plural marriage in 1852.',
+      'My followers built a city called Nauvoo on the Mississippi.',
+      'In 1830 I published the Book of Mormon and founded the Church of Jesus Christ of Latter-day Saints.',
+    ],
+    terms: ['4.10:Joseph Smith / Book of Mormon (1830)', '4.10:Nauvoo, Illinois', '4.10:Polygamy (plural marriage)'],
   },
   {
     id: 'emerson',

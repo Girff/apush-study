@@ -359,6 +359,11 @@
   .tabular {
     font-variant-numeric: tabular-nums;
   }
+  /* Long lists: let the browser skip rendering cards that are off screen. */
+  .cv-auto {
+    content-visibility: auto;
+    contain-intrinsic-size: auto 190px;
+  }
 }
 
 /* ---------- ambient motif animations (all disabled by reduced motion) ---------- */

@@ -8,8 +8,8 @@ import { CLOZE_CHAINS, type ClozeChain } from '../../unit/games';
 
 export default function FillChainPage() {
   usePageMeta('Fill the Chain', 'Fill the Chain');
-  const [id, setId] = useState(CLOZE_CHAINS[0].id);
-  const chain = CLOZE_CHAINS.find((c) => c.id === id)!;
+  const [id, setId] = useState(CLOZE_CHAINS[0]?.id ?? '');
+  const chain = CLOZE_CHAINS.find((c) => c.id === id);
   return (
     <div className="wrap">
       <PageHeader
@@ -18,6 +18,12 @@ export default function FillChainPage() {
         lede="Each sentence is one link in a cause → effect chain with one term missing. Pick a blank, then the term that completes it."
         motif="scales"
       />
+      {!chain ? (
+      <p className="mt-8 rounded border border-dashed border-rule-strong px-4 py-6 text-center text-sm text-muted">
+        No content is configured for this game in the current unit. Add some in <code>src/unit/</code> (see README).
+      </p>
+      ) : (
+      <>
       <div className="mt-6">
         <label htmlFor="fc-pick" className="mb-1 block text-sm font-semibold">
           Chain
@@ -31,6 +37,8 @@ export default function FillChainPage() {
         </select>
       </div>
       <Puzzle key={id} chain={chain} />
+      </>
+      )}
     </div>
   );
 }

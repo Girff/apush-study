@@ -1,4 +1,4 @@
-import { MotionConfig, AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, LazyMotion, MotionConfig, m } from 'framer-motion';
 import { Suspense, useEffect, useRef, useState } from 'react';
 import { Link, NavLink, Outlet, ScrollRestoration, useLocation } from 'react-router';
 import { UNIT } from '../unit/config';
@@ -7,6 +7,8 @@ import { resolvedTheme, setPrefs, usePrefs, useReducedMotion } from '../lib/pref
 import { currentStreak, useProgress } from '../lib/progress';
 import { storageStatus } from '../lib/storage';
 import { InkFilters } from './Motif';
+
+const loadMotionFeatures = () => import('../lib/motionFeatures').then((r) => r.default);
 
 const NAV = [
   { to: '/', label: 'Exhibit Hall', end: true },
@@ -22,21 +24,21 @@ const NAV = [
 export function Layout() {
   const location = useLocation();
   const mainRef = useRef<HTMLElement>(null);
-  const first = useRef(true);
+  const prevPath = useRef(location.pathname);
   const reduce = useReducedMotion();
 
   // Move focus to the page on client-side navigation so screen readers
   // announce the new page instead of staying on the clicked link.
+  // (Compared by path, so it never fires on first load.)
   useEffect(() => {
-    if (first.current) {
-      first.current = false;
-      return;
-    }
+    if (prevPath.current === location.pathname) return;
+    prevPath.current = location.pathname;
     mainRef.current?.focus({ preventScroll: true });
   }, [location.pathname]);
 
   return (
     <MotionConfig reducedMotion={reduce ? 'always' : 'never'}>
+      <LazyMotion features={loadMotionFeatures}>
       <a
         href="#main"
         onClick={(e) => {
@@ -58,6 +60,7 @@ export function Layout() {
       <SiteFooter />
       <Toaster />
       <ScrollRestoration />
+      </LazyMotion>
     </MotionConfig>
   );
 }
@@ -76,7 +79,7 @@ function SiteHeader() {
   return (
     <header className="no-print relative z-30 border-b border-rule bg-paper/85 backdrop-blur-[2px]">
       <div className="wrap flex items-center justify-between gap-3 py-3">
-        <Link to="/" className="group flex items-baseline gap-3 rounded" aria-label={`${UNIT.title}, home`}>
+        <Link to="/" className="group flex items-baseline gap-3 rounded">
           <span className="font-display text-2xl font-bold tracking-tight sm:text-[1.7rem]">{UNIT.title}</span>
           <span className="hidden text-[0.7rem] font-semibold uppercase tracking-[0.18em] text-muted sm:inline">
             APUSH · {UNIT.subtitle}
@@ -141,11 +144,7 @@ function HeaderStats() {
   const p = useProgress();
   const streak = currentStreak(p);
   return (
-    <Link
-      to="/progress"
-      className="mr-1 hidden items-center gap-2 rounded px-2 py-1 text-xs font-semibold text-ink-soft hover:bg-sunk sm:flex"
-      aria-label={`${p.xp} XP, ${streak}-day streak. Open progress.`}
-    >
+    <Link to="/progress" className="mr-1 hidden items-center gap-2 rounded px-2 py-1 text-xs font-semibold text-ink-soft hover:bg-sunk sm:flex">
       <span className="tabular">{p.xp.toLocaleString()} XP</span>
       <span aria-hidden="true" className="text-rule-strong">
         |
@@ -153,6 +152,7 @@ function HeaderStats() {
       <span className="tabular">
         {streak} day{streak === 1 ? '' : 's'}
       </span>
+      <span className="sr-only"> streak. Open progress.</span>
     </Link>
   );
 }
@@ -243,7 +243,7 @@ function SiteFooter() {
 
 export function RouteFallback() {
   return (
-    <div className="wrap py-24 text-center" role="status">
+    <div className="wrap min-h-screen py-24 text-center" role="status">
       <p className="font-display text-xl italic text-muted">Setting the type…</p>
     </div>
   );
@@ -256,7 +256,7 @@ function Toaster() {
     <div className="pointer-events-none fixed inset-x-0 bottom-3 z-[70] flex flex-col items-center gap-2 px-3 sm:items-end sm:pr-5" role="status" aria-live="polite">
       <AnimatePresence initial={false}>
         {toasts.map((t) => (
-          <motion.div
+          <m.div
             key={t.id}
             layout={!reduce}
             initial={reduce || t.solemn ? { opacity: 0 } : { opacity: 0, scale: 1.35, rotate: -6 }}
@@ -278,7 +278,7 @@ function Toaster() {
                 <path d="M5 5l10 10M15 5L5 15" />
               </svg>
             </button>
-          </motion.div>
+          </m.div>
         ))}
       </AnimatePresence>
     </div>

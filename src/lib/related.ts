@@ -45,10 +45,10 @@ function build(): Map<string, string[]> {
   }
 
   // 3. mentions: a term's core name inside another definition
-  const patterns = terms.flatMap((t) => nameCores(t.term).map((core) => ({ id: t.id, re: new RegExp(`\\b${escapeRe(core)}\\b`) })));
+  const patterns = terms.flatMap((t) => nameCores(t.term).map((core) => ({ id: t.id, core, re: new RegExp(`\\b${escapeRe(core)}\\b`) })));
   for (const t of terms) {
     for (const p of patterns) {
-      if (p.id !== t.id && p.re.test(t.def)) {
+      if (p.id !== t.id && t.def.includes(p.core) && p.re.test(t.def)) {
         bump(t.id, p.id, 3);
         bump(p.id, t.id, 3);
       }

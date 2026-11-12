@@ -2,7 +2,7 @@
  * Single ratio against a limit → a meter, drawn as a ring. The track is a
  * light step of the same teal ramp; the figure is set in the sans face.
  */
-import { motion } from 'framer-motion';
+import { m } from 'framer-motion';
 import { useReducedMotion } from '../lib/prefs';
 
 export function MasteryRing({
@@ -23,16 +23,16 @@ export function MasteryRing({
   const c = 2 * Math.PI * r;
   const dash = (pct / 100) * c;
   return (
-    <figure className="inline-flex flex-col items-center" role="img" aria-label={`${label}: ${pct}%${caption ? `. ${caption}` : ''}`}>
+    <div className="inline-flex flex-col items-center" role="img" aria-label={`${label}: ${pct}%${caption ? `. ${caption}` : ''}`}>
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} aria-hidden="true">
-        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--seq-track)" strokeWidth={stroke} />
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" strokeWidth={stroke} style={{ stroke: 'var(--seq-track)' }} />
         {pct > 0 && (
-          <motion.circle
+          <m.circle
             cx={size / 2}
             cy={size / 2}
             r={r}
             fill="none"
-            stroke="var(--viz-line)"
+            style={{ stroke: 'var(--viz-line)' }}
             strokeWidth={stroke}
             strokeLinecap="round"
             strokeDasharray={`${dash} ${c}`}
@@ -47,14 +47,19 @@ export function MasteryRing({
           y="50%"
           dominantBaseline="central"
           textAnchor="middle"
-          fill="var(--ink)"
-          style={{ fontFamily: 'var(--font-sans)', fontWeight: 650, fontSize: size * 0.24 }}
+          style={{ fill: 'var(--ink)', fontFamily: 'var(--font-sans)', fontWeight: 650, fontSize: size * 0.24 }}
         >
           {pct}%
         </text>
       </svg>
-      <figcaption className="mt-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-muted">{label}</figcaption>
-      {caption && <p className="mt-0.5 text-center text-xs text-muted">{caption}</p>}
-    </figure>
+      <p className="mt-2 text-center text-xs font-semibold uppercase tracking-[0.14em] text-muted" aria-hidden="true">
+        {label}
+      </p>
+      {caption && (
+        <p className="mt-0.5 text-center text-xs text-muted" aria-hidden="true">
+          {caption}
+        </p>
+      )}
+    </div>
   );
 }

@@ -27,8 +27,9 @@ export function scoreChain(user: string[], expert: string[]) {
 }
 
 export function BuildChain() {
-  const [chainId, setChainId] = useState(EXPERT_CHAINS[0].id);
-  const challenge = EXPERT_CHAINS.find((c) => c.id === chainId)!;
+  const [chainId, setChainId] = useState(EXPERT_CHAINS[0]?.id ?? '');
+  const challenge = EXPERT_CHAINS.find((c) => c.id === chainId);
+  if (!challenge) return <p className="text-sm text-muted">No expert chains are configured for this unit.</p>;
   return (
     <div>
       <label htmlFor="chain-pick" className="mb-2 block text-sm font-semibold">

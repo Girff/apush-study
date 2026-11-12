@@ -130,7 +130,7 @@ export function CausationGraph() {
         </div>
 
         {view === 'graph' ? (
-          <div className="scrollbar-thin panel mt-3 overflow-x-auto">
+          <div className="scrollbar-thin panel mt-3 overflow-x-auto" tabIndex={0} role="region" aria-label="Causation web (scrolls sideways on small screens)">
             <svg
               ref={svgRef}
               viewBox={`0 0 ${W} ${H}`}

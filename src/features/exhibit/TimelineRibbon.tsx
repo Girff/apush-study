@@ -113,7 +113,7 @@ export function TimelineRibbon() {
 function StaticRibbon() {
   return (
     <div className="wrap mt-4">
-      <div className="scrollbar-thin overflow-x-auto">
+      <div className="scrollbar-thin overflow-x-auto" tabIndex={0} role="region" aria-label="Ribbon of key events, 1800 to 1848 (scrolls sideways)">
         <svg viewBox={`0 0 ${W} ${H}`} className="h-[240px] w-auto max-w-none sm:h-[280px]" aria-hidden="true">
           <Strip />
         </svg>

@@ -146,6 +146,9 @@ export default function MapRoom() {
               }
             }}
             className="scrollbar-thin mt-4 overflow-x-auto rounded-md border border-rule bg-card"
+            tabIndex={0}
+            role="region"
+            aria-label="Map (scrolls sideways on small screens)"
           >
             <svg viewBox={`0 0 ${WIDTH} ${HEIGHT}`} className="block w-full min-w-[640px]" role="img" aria-label={`Map of the United States in ${year}. A list of the features shown follows the map.`}>
               <defs>

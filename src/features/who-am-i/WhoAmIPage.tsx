@@ -46,7 +46,11 @@ export default function WhoAmIPage() {
         lede="Clues come one at a time, hardest first. Guess on the first clue for 100 points; each extra clue costs 25."
         motif="broadside"
       />
-      <Game key={game} onRestart={() => setGame((g) => g + 1)} />
+      {PEOPLE.length ? (
+        <Game key={game} onRestart={() => setGame((g) => g + 1)} />
+      ) : (
+        <p className="mt-8 text-sm text-muted">No people are configured for this unit.</p>
+      )}
     </div>
   );
 }

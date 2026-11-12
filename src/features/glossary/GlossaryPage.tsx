@@ -1,5 +1,5 @@
 import Fuse, { type FuseResultMatch } from 'fuse.js';
-import { type ReactNode, useDeferredValue, useEffect, useMemo, useRef } from 'react';
+import { type ReactNode, useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router';
 import { StatusPill } from '../../components/TermChip';
 import { EmptyNote, Kbd, PageHeader, usePageMeta } from '../../components/ui';
@@ -106,6 +106,23 @@ export default function GlossaryPage() {
   const filtered = !!(q || topic || ch || status);
   const grouped = !deferredQ.trim();
 
+  // Paint the first screenful right away; render the rest when the browser is idle.
+  const [limit, setLimit] = useState(focusId ? Infinity : 60);
+  useEffect(() => {
+    if (limit === Infinity) return;
+    const w = window as Window & { requestIdleCallback?: (cb: () => void) => number; cancelIdleCallback?: (id: number) => void };
+    if (w.requestIdleCallback) {
+      const id = w.requestIdleCallback(() => setLimit(Infinity));
+      return () => w.cancelIdleCallback?.(id);
+    }
+    const t = setTimeout(() => setLimit(Infinity), 60);
+    return () => clearTimeout(t);
+  }, [limit]);
+  useEffect(() => {
+    if (focusId) setLimit(Infinity);
+  }, [focusId]);
+  const shown = list.slice(0, limit);
+
   return (
     <div className="wrap">
       <PageHeader
@@ -193,15 +210,18 @@ export default function GlossaryPage() {
         {list.length === 0 ? (
           <EmptyNote>No terms match. Try fewer words, or clear the filters.</EmptyNote>
         ) : grouped ? (
-          <GroupedList list={list.map((r) => r.term)} focusId={focusId} />
+          <GroupedList list={shown.map((r) => r.term)} focusId={focusId} />
         ) : (
+          <>
+          <h2 className="sr-only">Search results</h2>
           <ul className="grid gap-3">
-            {list.map((r) => (
+            {shown.map((r) => (
               <li key={r.term.id}>
                 <GlossaryEntry term={r.term} matches={r.matches} focused={r.term.id === focusId} showTopic />
               </li>
             ))}
           </ul>
+          </>
         )}
       </div>
     </div>
@@ -285,7 +305,7 @@ function GlossaryEntry({
       id={`term-${term.id}`}
       tabIndex={-1}
       aria-labelledby={`h-${term.id}`}
-      className={`panel h-full scroll-mt-48 p-4 outline-none transition-shadow ${focused ? 'ring-2 ring-offset-2 ring-offset-paper' : ''}`}
+      className={`panel cv-auto h-full scroll-mt-48 p-4 outline-none transition-shadow ${focused ? 'ring-2 ring-offset-2 ring-offset-paper' : ''}`}
       style={{ borderLeft: `4px solid var(${theme.colorVar})`, ...(focused ? { ['--tw-ring-color' as string]: 'var(--focus)' } : {}) }}
     >
       <div className="flex flex-wrap items-start justify-between gap-2">

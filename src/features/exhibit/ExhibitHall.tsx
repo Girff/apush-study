@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import { useMemo, useState } from 'react';
+import { m } from 'framer-motion';
+import { Suspense, lazy, useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { MasteryRing } from '../../components/MasteryRing';
 import { Fleuron, Motif } from '../../components/Motif';
@@ -11,7 +11,8 @@ import { useReducedMotion } from '../../lib/prefs';
 import { useProgress } from '../../lib/progress';
 import type { MotifId, ThemeId } from '../../lib/types';
 import { THEMES, UNIT } from '../../unit/config';
-import { TimelineRibbon } from './TimelineRibbon';
+// Below the fold: its own chunk, so the hero paints sooner.
+const TimelineRibbon = lazy(() => import('./TimelineRibbon').then((r) => ({ default: r.TimelineRibbon })));
 
 const DOOR_MOTIF: Record<string, MotifId> = { politics: 'ballot', economy: 'canal', culture: 'tent' };
 
@@ -74,15 +75,22 @@ export default function ExhibitHall() {
                 <dt className="text-muted">Not yet studied</dt>
                 <dd className="font-semibold tabular">{counts.new}</dd>
               </div>
-              <Link to="/progress" className="mt-1 font-semibold text-teal underline underline-offset-2">
-                Progress details
-              </Link>
+              <div className="mt-1">
+                <dt className="sr-only">More</dt>
+                <dd>
+                  <Link to="/progress" className="font-semibold text-teal underline underline-offset-2">
+                    Progress details
+                  </Link>
+                </dd>
+              </div>
             </dl>
           </div>
         </div>
       </section>
 
-      <TimelineRibbon />
+      <Suspense fallback={<div className="min-h-[420px]" aria-hidden="true" />}>
+        <TimelineRibbon />
+      </Suspense>
 
       {/* Theme doors */}
       <section className="wrap mt-16" aria-labelledby="doors-title">
@@ -195,7 +203,6 @@ function Door({ id, label, blurb, colorVar, count }: { id: ThemeId; label: strin
         setTimeout(() => navigate(to), 560);
       }}
       className="group block rounded-md text-center"
-      aria-label={`${label}: ${count} topics. ${blurb}`}
     >
       <div className="relative mx-auto aspect-[3/4] max-w-xs overflow-hidden rounded-t-[50%_22%] border-[3px] [perspective:1100px]" style={{ borderColor: color }}>
         {/* the room beyond */}
@@ -204,7 +211,7 @@ function Door({ id, label, blurb, colorVar, count }: { id: ThemeId; label: strin
           <p className="font-display text-lg font-semibold text-ink">{count} topics</p>
         </div>
         {/* the two leaves */}
-        <motion.div
+        <m.div
           className={`${leaf} left-0 origin-left`}
           style={{ borderColor: color }}
           animate={{ rotateY: opening ? -78 : 0 }}
@@ -212,8 +219,8 @@ function Door({ id, label, blurb, colorVar, count }: { id: ThemeId; label: strin
           transition={{ type: 'spring', stiffness: 120, damping: 18 }}
         >
           <DoorPanels side="left" color={color} />
-        </motion.div>
-        <motion.div
+        </m.div>
+        <m.div
           className={`${leaf} right-0 origin-right`}
           style={{ borderColor: color }}
           animate={{ rotateY: opening ? 78 : 0 }}
@@ -221,7 +228,7 @@ function Door({ id, label, blurb, colorVar, count }: { id: ThemeId; label: strin
           transition={{ type: 'spring', stiffness: 120, damping: 18 }}
         >
           <DoorPanels side="right" color={color} />
-        </motion.div>
+        </m.div>
       </div>
       <div className="relative mx-auto -mt-3 inline-block rounded border-2 bg-card px-4 py-1.5 shadow-paper" style={{ borderColor: 'var(--brass)' }}>
         <span className="font-display text-xl font-semibold">{label}</span>

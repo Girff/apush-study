@@ -141,12 +141,15 @@ export function TopicHeatmap({ progress }: { progress: ProgressState }) {
                     onPointerLeave={() => setHover(null)}
                     onFocus={() => setHover(r.topic.id)}
                     onBlur={() => setHover(null)}
-                    aria-label={`${r.topic.id} ${r.topic.title}: ${Math.round(r.mastery * 100)}% mastery${r.started ? '' : ', not started'}`}
                   >
                     <span className="text-xs font-semibold">
                       {r.topic.id} · {TOPIC_SHORT[r.topic.id]}
+                      <span className="sr-only">, {r.topic.title}:</span>
                     </span>
-                    <span className="font-sans text-2xl font-semibold">{r.started ? `${Math.round(r.mastery * 100)}%` : '—'}</span>
+                    <span className="font-sans text-2xl font-semibold">
+                      {r.started ? `${Math.round(r.mastery * 100)}%` : <span aria-hidden="true">—</span>}
+                      <span className="sr-only">{r.started ? ' mastery' : 'not started'}</span>
+                    </span>
                   </Link>
                   {hover === r.topic.id && (
                     <div className="panel pointer-events-none absolute left-1/2 top-full z-20 mt-1 w-56 -translate-x-1/2 p-2.5 text-xs" role="tooltip">
@@ -239,7 +242,7 @@ export function StreakCalendar({ progress }: { progress: ProgressState }) {
           <p className="mt-3 text-sm text-muted">No study days yet.</p>
         )
       ) : (
-        <div className="relative mt-3 overflow-x-auto">
+        <div className="relative mt-3 overflow-x-auto" tabIndex={0} role="region" aria-label="Study calendar grid, by week">
           <svg width={weeks * (cell + gap)} height={7 * (cell + gap)} role="img" aria-label={`${active.length} study days in the last ${weeks} weeks. Use the table view for the list.`}>
             {days.map((d, i) => {
               const lv = level(d.xp);

@@ -4,6 +4,7 @@ import { Motif } from '../../components/Motif';
 import { PageHeader, usePageMeta } from '../../components/ui';
 import { topics } from '../../lib/data';
 import { deckStats } from '../../lib/deck';
+import { useReducedMotion } from '../../lib/prefs';
 import { useProgress } from '../../lib/progress';
 import type { MotifId } from '../../lib/types';
 
@@ -28,6 +29,7 @@ const GAMES: Game[] = [
 export default function ArcadeHub() {
   usePageMeta('Study Arcade');
   const progress = useProgress();
+  const reduce = useReducedMotion();
   const due = deckStats(
     progress,
     topics.map((t) => t.id),
@@ -50,7 +52,7 @@ export default function ArcadeHub() {
       />
       <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {GAMES.map((g, i) => (
-          <motion.li key={g.to} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
+          <motion.li key={g.to} initial={reduce ? false : { opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.04 }}>
             <Link to={g.to} className="panel group flex h-full gap-4 p-5 transition-transform duration-200 hover:-translate-y-1">
               <span className="shrink-0 text-brass">
                 <Motif id={g.motif} className="h-14 w-14" animated={false} />
