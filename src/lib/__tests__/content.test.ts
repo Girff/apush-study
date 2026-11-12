@@ -110,3 +110,38 @@ describe('map content', () => {
     }
   });
 });
+
+import { CLOZE_CHAINS, PEOPLE, SORT_SETS } from '../../unit/games';
+import { SAQS } from '../../unit/saq';
+
+describe('arcade content', () => {
+  it('Who Am I? people have clues, aliases and real terms', () => {
+    for (const p of PEOPLE) {
+      expect(p.clues.length, p.id).toBeGreaterThanOrEqual(3);
+      expect(p.aliases.every((a) => a === a.toLowerCase())).toBe(true);
+      for (const r of p.terms) expect(resolveRef(r), `${p.id}: ${r}`).toBeDefined();
+    }
+  });
+  it('Fill-the-Chain steps each have exactly one resolvable blank', () => {
+    for (const c of CLOZE_CHAINS) {
+      for (const s of c.steps) {
+        const blanks = [...s.matchAll(/\{\{([^}]+)\}\}/g)];
+        expect(blanks.length, `${c.id}: ${s}`).toBe(1);
+        expect(resolveRef(blanks[0][1]), blanks[0][1]).toBeDefined();
+      }
+      for (const d of c.decoys) expect(resolveRef(d), d).toBeDefined();
+    }
+  });
+  it('Sort It items resolve and land in a defined bucket', () => {
+    for (const set of SORT_SETS) {
+      const buckets = new Set(set.buckets.map((b) => b.id));
+      for (const it of set.items) {
+        expect(resolveRef(it.ref), it.ref).toBeDefined();
+        expect(buckets.has(it.bucket), `${set.id}: ${it.ref}`).toBe(true);
+      }
+    }
+  });
+  it('SAQ evidence lists resolve', () => {
+    for (const q of SAQS) for (const p of q.parts) for (const r of p.evidence) expect(resolveRef(r), `${q.id}${p.label}: ${r}`).toBeDefined();
+  });
+});
