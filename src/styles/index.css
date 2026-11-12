@@ -390,6 +390,16 @@
 .motif-float { animation: p4-float 4s ease-in-out infinite; }
 .motif-spin { transform-origin: center; transform-box: fill-box; animation: p4-spin 30s linear infinite; }
 
+/* Map Room: point labels appear on hover, focus or selection to keep the map legible. */
+.map-pt .pt-label {
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.map-pt:hover .pt-label,
+.map-pt[data-selected='true'] .pt-label {
+  opacity: 1;
+}
+
 @media (forced-colors: active) {
   .espn { box-shadow: none; text-decoration: underline; }
   .stamp { filter: none; }

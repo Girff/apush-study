@@ -94,3 +94,19 @@ describe('timeline content', () => {
     expect(events.find((e) => e.term.term === '1832 Jefferson dinner toasts')).toBeUndefined();
   });
 });
+
+import { MAP_FEATURES, MAP_LAYERS } from '../../unit/map';
+
+describe('map content', () => {
+  it('uses known layers, unique ids and resolvable terms', () => {
+    const layers = new Set(MAP_LAYERS.map((l) => l.id));
+    const ids = new Set<string>();
+    for (const f of MAP_FEATURES) {
+      expect(layers.has(f.layer), f.id).toBe(true);
+      expect(ids.has(f.id), f.id).toBe(false);
+      ids.add(f.id);
+      expect(f.polygon || f.line || f.states || f.point, f.id).toBeTruthy();
+      for (const r of f.terms) expect(resolveRef(r), `${f.id}: ${r}`).toBeDefined();
+    }
+  });
+});
