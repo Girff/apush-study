@@ -56,7 +56,17 @@ Import the repository; [`netlify.toml`](netlify.toml) already sets `npm run buil
 
 ### GitHub Pages
 
-[`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) builds and publishes on every push to `main`. In the repository settings, under **Pages → Build and deployment**, choose **GitHub Actions** as the source.
+The site is served from the **`gh-pages` branch**, which holds only the built files.
+
+- **One-time setup:** in **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, then branch **`gh-pages`**, folder **`/ (root)`**.
+- **Automatic updates:** [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) rebuilds and republishes `gh-pages` on every push to `main`. This needs GitHub Actions turned on (**Settings → Actions → General → Allow all actions**).
+- **Manual deploy** (no Actions needed):
+
+  ```bash
+  npm run build && touch dist/.nojekyll
+  ```
+
+  Then commit the contents of `dist/` to the `gh-pages` branch.
 
 ## Project structure
 
