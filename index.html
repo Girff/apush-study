@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" data-theme="parchment" data-motion="full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Period 4 (1800–1848): an interactive exhibit and study app for AP U.S. History Unit 4, built on The American Yawp, chapters 7–11." />
+    <meta name="theme-color" content="#f6f1e7" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Period 4 · APUSH Unit 4, 1800–1848</title>
+    <script>
+      // Apply saved theme + motion before first paint (no flash of the wrong theme).
+      (function () {
+        var d = document.documentElement;
+        try {
+          var p = JSON.parse(localStorage.getItem('exhibit.prefs') || '{}');
+          var dark = p.theme === 'lamplight' || ((!p.theme || p.theme === 'system') && matchMedia('(prefers-color-scheme: dark)').matches);
+          var calm = p.motion === 'reduce' || ((!p.motion || p.motion === 'system') && matchMedia('(prefers-reduced-motion: reduce)').matches);
+          d.setAttribute('data-theme', dark ? 'lamplight' : 'parchment');
+          d.setAttribute('data-motion', calm ? 'reduce' : 'full');
+        } catch (e) {
+          try {
+            if (matchMedia('(prefers-color-scheme: dark)').matches) d.setAttribute('data-theme', 'lamplight');
+            if (matchMedia('(prefers-reduced-motion: reduce)').matches) d.setAttribute('data-motion', 'reduce');
+          } catch (e2) {}
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <p style="padding:2rem;font-family:Georgia,serif">Period 4 is an interactive study app and needs JavaScript turned on.</p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
