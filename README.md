@@ -1,25 +1,67 @@
-# Period 4: an interactive APUSH Unit 4 exhibit
+# APUSH Unit 4 Flashcards
 
-An interactive study site for **AP U.S. History Unit 4 (Period 4, 1800–1848)**, keyed to *The American Yawp*, chapters 7–11. It is built like a museum exhibit with a study arcade attached: Story Mode, a Map Room, a Living Timeline, a Causation Web, seven study games, a searchable glossary and a progress dashboard.
+Flashcards for **AP U.S. History Unit 4 (Period 4, 1800–1848)**: 286 curated cards sorted into 22 topic baskets. Pick the baskets you need, choose how to study, and go. Your progress is saved in your browser.
 
-Every term, definition and Yawp citation comes from one file, [`src/data/apush-unit4-terms.json`](src/data/apush-unit4-terms.json) (13 topics, 361 terms). Teaching content added beyond that file is listed, with sources, in [`CONTENT_NOTES.md`](CONTENT_NOTES.md).
+**Live site:** https://girff.github.io/apush-study/
 
-## What's inside
+## The baskets
 
-| Room | What it does |
+| Group | Baskets |
 | --- | --- |
-| **Exhibit Hall** (`/`) | Scroll-scrubbed ribbon that unrolls 1800 → 1848, three gallery doors (Politics & Power, Economy & Society, Religion, Reform & Culture), continue-where-you-left-off and an overall mastery meter. |
-| **Story Mode** (`/story/4.1` … `/story/4.13`) | One chapter per topic. Terms appear in cause → effect order as ESPN chips (hover or tap for the definition and Yawp citation), with a sticky scene plate, Pause & Predict checkpoints, three takeaways and a five-question mini-quiz. |
-| **Map Room** (`/map`) | Year slider (with play) over real state outlines. Layers: U.S. territory and statehood, Louisiana Purchase, Adams-Onís Treaty, Missouri Compromise and 36°30′, Indian removal and the Trail of Tears, Erie and Ohio canals, National Road, the spreading Cotton Belt, and event markers. Select anything for its terms. |
-| **Living Timeline** (`/timeline`) | Zoomable, pannable swimlanes of every dated event, filterable by theme and topic, with a caused-by / led-to panel and a list view. **Game:** put five events in order and keep a streak. |
-| **Causation Web** (`/web`) | Force-directed graph of 41 developments and 44 explained links. **Build a Chain:** assemble a cause → effect chain and compare it with an expert chain. |
-| **Study Arcade** (`/arcade`) | Flashcards (SM-2 spaced repetition, both directions, swipe and keyboard), Quiz (same-topic distractors, missed-term review), Speed Match, Who Am I?, Fill the Chain, Sort It and SAQ Practice. |
-| **Glossary** (`/glossary`) | Instant fuzzy search over all 361 terms, filters by topic, Yawp chapter and mastery, related terms and deep links (`/glossary?term=<id>`). |
-| **Progress** (`/progress`) | Mastery heat grid, study calendar, quiz history, weakest ten terms, badges, display settings and JSON export/import. |
+| The Early Republic, 1800–1815 | Jefferson’s Presidency · The Marshall Court · Native Resistance · The War of 1812 |
+| Nationalism & Sectionalism, 1815–1824 | Era of Good Feelings · Sectionalism & the Missouri Compromise |
+| The Age of Jackson, 1824–1841 | Jacksonian Democracy · The Nullification Crisis · The Bank War & Panic of 1837 · Indian Removal |
+| Economy & Society | The Market Revolution · Workers & Labor · Immigration & Nativism · Class, Family & Gender |
+| Religion, Reform & Culture | Second Great Awakening · Reform Movements · Abolitionism · Women’s Rights · American Culture |
+| Slavery & Black America | Cotton & the Slave South · Enslaved Life & Resistance · Free Black Communities |
+
+Every card, by basket, is listed in [`DECK.md`](DECK.md). [`CONTENT_NOTES.md`](CONTENT_NOTES.md) explains how the deck was built from the original 361-entry term list: what was merged, dropped, added and corrected.
+
+## Studying
+
+- **Choose cards:** tap baskets to select them, or select a whole group at once. Each basket has a **Study** button that starts it on its own, and a **Cards** list with every card in it.
+- **Search** every term and definition (press <kbd>/</kbd>), then practice the results.
+- **Star** cards to study later, and **hide** cards you don’t need. Uncheck a card in any list, or tap the eye on the card mid-session.
+- **Two modes:**
+  - **Practice:** go through any cards and sort each into *Know it* or *Still learning*. Missed cards come back four cards later until you know them all.
+  - **Spaced review:** shows only cards that are due, plus a daily allowance of new ones. Grades are *Again / Hard / Good / Easy*, and the schedule uses SM-2: 1 day, then about 6 days, then weeks. A miss in Practice also brings a card back sooner in Spaced review.
+- **Options:**
+  - **Filters:** All, Starred, Weak (missed recently or forgotten twice) or New.
+  - **Show first:** the term, the definition, or a mix.
+  - **Answer by:** flipping, or **typing** the term. Typing is lenient about case, accents, small typos and a missing year, with hints and an "I was right" override.
+  - **Order** (shuffled or in order) and **session size** (10, 20, 50 or all).
+- **Progress:** each basket shows a mastery bar (New → Learning → Known → Mastered) and how many cards are due.
+- **Session tools:**
+  - **Undo** any answer (<kbd>U</kbd> or <kbd>Ctrl</kbd>+<kbd>Z</kbd>).
+  - Sessions **resume** after a reload or a break.
+  - A summary at the end offers **Practice the missed cards**.
+- **Comfort:**
+  - Swipe on phones; keyboard shortcuts on computers.
+  - **Read aloud**; the screen stays awake while studying.
+  - Light and dark themes, three text sizes and reduced motion.
+  - Works **offline** once loaded, and can be added to a home screen.
+- **Your data:**
+  - Export or import progress as a file, to back it up or move it to another device.
+  - Download the whole deck as TSV (imports straight into Quizlet or Anki) or CSV.
+
+### Keyboard
+
+| Key | Action |
+| --- | --- |
+| <kbd>Space</kbd> | Flip the card |
+| <kbd>Enter</kbd> | Flip, then *Know it* / *Good* |
+| <kbd>←</kbd> / <kbd>1</kbd> | *Still learning* (Practice) · *Again* (Spaced) |
+| <kbd>→</kbd> / <kbd>2</kbd> | *Know it* (Practice) |
+| <kbd>1</kbd>–<kbd>4</kbd> | *Again / Hard / Good / Easy* (Spaced) |
+| <kbd>U</kbd> or <kbd>Ctrl</kbd>+<kbd>Z</kbd> | Undo |
+| <kbd>S</kbd> | Star |
+| <kbd>R</kbd> | Read aloud |
+| <kbd>Esc</kbd> | End the session (saved for later) |
+| <kbd>?</kbd> | Help |
 
 ## Quick start
 
-Requires **Node.js 20+** (developed on Node 22).
+Requires **Node.js 20+**.
 
 ```bash
 npm install
@@ -29,116 +71,86 @@ npm install
 npm run dev
 ```
 
-Open the URL Vite prints (usually http://localhost:5173).
-
 ## Scripts
 
 | Command | What it does |
 | --- | --- |
-| `npm run dev` | Start the dev server with hot reload. |
-| `npm run build` | Validate content, type-check, then build static files into `dist/`. |
+| `npm run dev` | Dev server with hot reload. |
+| `npm run build` | Check the deck, type-check, then build the static site into `dist/`. |
 | `npm run preview` | Serve the production build locally. |
-| `npm test` | Run all unit tests (data loading, SM-2, quiz builder, dates, content). |
-| `npm run validate` | Content checks only: every term reference in `src/unit/` must resolve to a real term, and every term must appear in its Story Mode chapter. `build` runs this first, so a broken reference fails the build. |
-| `npm run typecheck` | TypeScript only. |
+| `npm test` | All unit tests: deck integrity and the curation ledger, scheduling, sessions, typed-answer matching, saved data and search. |
+| `npm run validate` | The deck checks only (run first by `build`). |
+| `npm run deck:md` | Regenerate `DECK.md` from the deck. |
+
+## Editing the deck
+
+Cards live in [`src/data/deck.json`](src/data/deck.json): `groups`, then `baskets`, then `cards` with these fields.
+
+| Field | Required? | What it holds |
+| --- | --- | --- |
+| `id` | Yes | Stable; it’s the progress key, so don’t rename it. |
+| `term` | Yes | The card’s term. |
+| `def` | Yes | The definition. |
+| `yawp` | No | Yawp section citations. |
+| `alts` | No | Extra answers accepted in Type mode. |
+| `added` | No | `true` when the card isn’t from the original list. |
+
+When you add or remove a card, update [`src/data/curation.json`](src/data/curation.json) too. List the original entries the card covers, or `[]` for an added card. Then run `npm test` and `npm run deck:md`. The tests will tell you if:
+
+- a definition contains its own term;
+- two cards share a term or an accepted answer;
+- any of the 361 original entries is no longer accounted for.
 
 ## Deploying
 
-`npm run build` produces a fully static site in `dist/`. Routing uses the URL hash (`/#/story/4.4`) and asset paths are relative (`base: './'`), so the same build works at a domain root or under a sub-path with **no rewrite rules**.
+`npm run build` produces a static site in `dist/` with relative asset paths, so it works at a domain root or under a sub-path with no configuration.
 
-### Vercel
+- **GitHub Pages:** the site is served from the `gh-pages` branch (Settings → Pages → *Deploy from a branch* → `gh-pages`, `/ (root)`). [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) tests, builds and republishes on every push to `main`, and can be run by hand from the Actions tab.
+- **Netlify:** [`netlify.toml`](netlify.toml) is ready; import the repository.
+- **Vercel:** import the repository. Vercel detects Vite, so nothing else is needed.
 
-Import the repository. Vercel detects Vite: build command `npm run build`, output directory `dist`. Nothing else is needed.
-
-### Netlify
-
-Import the repository; [`netlify.toml`](netlify.toml) already sets `npm run build` and the `dist` publish directory. Or drag the `dist/` folder onto the Netlify dashboard.
-
-### GitHub Pages
-
-The site is served from the **`gh-pages` branch**, which holds only the built files.
-
-- **One-time setup:** in **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, then branch **`gh-pages`**, folder **`/ (root)`**.
-- **Automatic updates:** [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) rebuilds and republishes `gh-pages` on every push to `main`. This needs GitHub Actions turned on (**Settings → Actions → General → Allow all actions**).
-- **Manual deploy** (no Actions needed):
-
-  ```bash
-  npm run build && touch dist/.nojekyll
-  ```
-
-  Then commit the contents of `dist/` to the `gh-pages` branch.
+The build also writes `sw.js`, a small service worker that caches the app for offline use. Pages load network-first, so a new deploy shows up on the next visit.
 
 ## Project structure
 
 ```
 src/
-  data/apush-unit4-terms.json   The unit file: the single source of truth for terms
-  lib/                          Shared data loading, types and logic
-    loadUnit.ts, data.ts        Validate + index the JSON (stable term IDs: "4.4~louisiana-purchase-1803")
-    progress.ts, storage.ts     Saved progress (localStorage with an in-memory fallback), XP, streaks, badges, export/import
-    srs.ts, deck.ts             SM-2 scheduling and the flashcard queue
-    quiz.ts, mastery.ts         Question builder (same-topic distractors) and the mastery model
-    dates.ts, timeline.ts       Dates from term names, timeline events, caused-by / led-to lookups
-    related.ts, markup.ts       Related terms; [[Term]] markup for authored prose
-    prefs.ts                    Theme (parchment / lamplight) and motion preferences
-  unit/                         Everything unit-specific that is NOT a term
-    config.ts                   Unit metadata, themes, motifs, badges, solemn terms, confusable pairs
-    stories/                    Story Mode chapters (one file per topic)
-    causation.ts                Causation nodes, links and expert chains
-    timeline.ts, map.ts         Curated dates; map layers and overlays
-    games.ts, saq.ts            Who Am I?, Fill the Chain, Sort It; SAQ prompts
-  components/                   Layout, ESPN term chip, SVG motifs, mastery meter, reorderable list, UI bits
-  features/<feature>/           One folder per room or game (lazy-loaded routes)
-  styles/index.css              Tailwind v4 tokens, paper grain, components, motion rules
+  data/deck.json            The deck: groups → baskets → cards
+  data/curation.json        Ledger: each card's sources; dropped entries; corrections
+  data/apush-unit4-terms.json  The original term list (used by tests only)
+  lib/
+    deck.ts                 Loads the deck and builds lookups
+    srs.ts                  SM-2 scheduling
+    session.ts              Planning sessions, answering, undo, resume (pure functions)
+    status.ts               New / Learning / Known / Mastered, weak and due
+    store.ts, prefs.ts      Saved progress and settings (localStorage, synced across tabs)
+    match.ts                Checking typed answers; hints
+    search.ts, exportData.ts  Search; CSV/TSV and progress files
+  views/                    Home (baskets), study panel, card lists, study session, settings, help
+  ui/                       Dialog, segmented control, icons, toasts
+scripts/deck-md.mjs         Writes DECK.md
 ```
 
-## Swapping in a new unit
+## Privacy
 
-The data layer, glossary, flashcards, quiz, Speed Match, timeline (dates parsed from term names) and dashboard work from the JSON alone. The rest needs unit content.
+Progress is stored only in your browser’s `localStorage` (keys `p4cards.v1`, `p4cards.prefs` and `p4cards.session`). Nothing is sent anywhere. If the browser blocks storage, the app still works for that visit, and Settings says so.
 
-1. **Add the JSON.** Put the new file in `src/data/` in the same shape: an array of `{ id, title, intro, terms: [{ term, yawp, def }] }`. Point the import at the top of `src/unit/config.ts` to it.
-2. **Update `UNIT` in `src/unit/config.ts`.** Change `id`, `title`, `subtitle`, `startYear`/`endYear`, `expectedTermCount`/`expectedTopicCount`, and **`storageKey`**, so the new unit's progress never mixes with Unit 4's.
-3. **Map topics to themes and motifs** with `TOPIC_THEME`, `TOPIC_MOTIF` and `TOPIC_SHORT`, and rename `TOPIC_BADGES`.
-4. **Review `SOLEMN_TERMS` and `CONFUSABLE_PAIRS`** for the new terms. Solemn terms never get celebratory feedback; confusable pairs are never used as each other's quiz distractors.
-5. **Author or clear the unit content** in `src/unit/`:
-   - `stories/`: write chapters, or delete them. A topic with no chapter gets an automatic one that walks its terms in file order.
-   - `causation.ts`, `timeline.ts`, `map.ts`, `games.ts`, `saq.ts`: replace, or empty the arrays. Games with no content show a short "nothing configured" note. The Map Room's overlays are specific to 1800–1848; for another period, replace `MAP_FEATURES`, `STATEHOOD` and `US_1800`, or remove the route from `src/App.tsx` and the nav.
-6. **Run `npm run validate`.** It names every reference that doesn't match a term exactly, and every term missing from Story Mode.
+## Accessibility and performance
 
-## Progress and privacy
+- WCAG AA contrast in both themes and visible focus rings.
+- Every control works from the keyboard. Dialogs are native modal `<dialog>`s.
+- Screen-reader announcements for flips and answers. The card face turned away is inert, so it isn't read out or reachable by Tab.
+- Reduced motion swaps the 3D flip and swipes for quick fades.
+- An axe-core audit of 50 screens and states (home, search, lists, settings, help, study, typing and summary, in both themes, on desktop and phone) reports no violations.
+- Lighthouse on the production build:
 
-Progress is stored only in the browser, in `localStorage` under the unit's `storageKey` (display preferences live under `exhibit.prefs`). If storage is blocked (some private modes), the site keeps working in memory and shows a banner. **Progress → Your data** exports a JSON file and imports one, either merged with or replacing the current progress. Nothing is sent anywhere.
-
-## Accessibility and motion
-
-- WCAG AA contrast in both themes (text tokens checked at 5.4:1 or better; chart colors validated for color-vision deficiency). Visible focus rings, a skip link, labelled landmarks, and focus moved to the page on navigation.
-- Every game is fully playable from the keyboard:
-  - **Flashcards:** Space flips the card; 1–4 grade it; ← / → for again / good.
-  - **Quiz:** 1–4 pick an answer; → goes to the next question.
-  - **Timeline:** arrow keys step through events; + and − zoom.
-  - **Reorderable lists:** focus a handle and press ↑ / ↓.
-  - **Sort It:** focus a card and press its bucket's number.
-  - **Everything else** uses standard buttons, links and form controls.
-- Charts have table views, and the map and causation graph have list views.
-- **Reduced motion:** the site follows the OS setting, and the header's "calm motion" toggle overrides it. With it on, the landing ribbon is static, cards flip without rotation, routes don't draw in, parallax and ink-bleed reveals are off, and CSS animations stop.
-- An automated axe-core audit of all 21 routes, in both themes at desktop and phone widths, reports no violations.
-
-## Performance
-
-Routes are code-split; the landing page's critical script is about 100 KB gzipped, and fonts are self-hosted with the two first-screen files preloaded. Lighthouse results on the production build:
-
-| Page | Desktop (perf / a11y) | Mobile (perf / a11y) |
-| --- | --- | --- |
-| Landing page | 100 / 100 | 92 / 100 |
-| Story chapter (deep link) | 100 / 100 | 87 / 100 |
-| Glossary (deep link) | 100 / 100 | 83 / 100 |
-
-Best Practices and SEO score 100 on the landing page. On simulated slow 4G, deep links pay for an extra round trip to fetch the route's code, which accounts for the lower mobile scores.
+  | | Performance | Accessibility | Best Practices | SEO |
+  | --- | --- | --- | --- | --- |
+  | Desktop | 100 | 100 | 100 | 100 |
+  | Mobile | 96 | 100 | 100 | 100 |
 
 ## Credits
 
-- Terms, definitions and citations: the provided Unit 4 file, keyed to [*The American Yawp*](https://www.americanyawp.com/), an open U.S. history textbook (see its site for license terms).
-- State outlines: [us-atlas](https://github.com/topojson/us-atlas) (U.S. Census Bureau cartographic boundaries).
-- Fonts: Fraunces and Inter (SIL Open Font License) via Fontsource.
-- All illustrations are original SVG.
-- Built with Vite, React, TypeScript, Tailwind CSS, Framer Motion, Fuse.js, Floating UI and d3 (d3-force, d3-geo).
+- Definitions are keyed to [*The American Yawp*](https://www.americanyawp.com/), an open U.S. history textbook.
+- Fonts: Fraunces and Inter (SIL Open Font License), via Fontsource.
+- Built with Vite, React, TypeScript and Tailwind CSS.

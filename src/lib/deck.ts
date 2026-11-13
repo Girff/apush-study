@@ -1,53 +1,95 @@
-/** Builds the flashcard queue: due reviews first, then a capped batch of new cards. */
-import { topicById } from './data';
-import type { ProgressState } from './progress';
-import { type Direction, cardKey, endOfDay } from './srs';
+/**
+ * The curated Unit 4 deck: groups → baskets → cards, plus lookup tables.
+ * `src/data/deck.json` is the single source of truth; see CONTENT_NOTES.md
+ * for how it was curated from the original term list.
+ */
+import raw from '../data/deck.json';
 
-export type DirectionMode = Direction | 'both';
-
-export interface QueueCard {
-  termId: string;
-  dir: Direction;
+export interface Card {
+  id: string;
+  term: string;
+  def: string;
+  /** American Yawp chapter.section citations, e.g. "7.IV, 9.III". */
+  yawp?: string;
+  /** Extra answers accepted in Type mode. */
+  alts?: string[];
+  /** Added for full Unit 4 coverage (not in the original term list). */
+  added?: boolean;
+  basket: string;
+  group: string;
+  /** Position in the whole deck, for "in order" study. */
+  index: number;
 }
 
-function candidates(topicIds: string[], mode: DirectionMode): QueueCard[] {
-  const dirs: Direction[] = mode === 'both' ? ['td', 'dt'] : [mode];
-  return topicIds.flatMap((id) => (topicById.get(id)?.terms ?? []).flatMap((t) => dirs.map((dir) => ({ termId: t.id, dir }))));
+export interface Basket {
+  id: string;
+  group: string;
+  title: string;
+  years: string;
+  blurb: string;
+  cardIds: string[];
 }
 
-export function deckStats(s: ProgressState, topicIds: string[], mode: DirectionMode, now = Date.now()) {
-  const all = candidates(topicIds, mode);
-  const cutoff = endOfDay(now);
-  let due = 0;
-  let fresh = 0;
-  let learned = 0;
-  for (const c of all) {
-    const card = s.srs[cardKey(c.termId, c.dir)];
-    if (!card) fresh++;
-    else if (card.due <= cutoff) due++;
-    else learned++;
+export interface Group {
+  id: string;
+  title: string;
+  years: string;
+  basketIds: string[];
+}
+
+interface RawCard {
+  id: string;
+  term: string;
+  def: string;
+  yawp?: string;
+  alts?: string[];
+  added?: boolean;
+}
+interface RawDeck {
+  title: string;
+  period: string;
+  groups: { id: string; title: string; years: string }[];
+  baskets: { id: string; group: string; title: string; years: string; blurb: string; cards: RawCard[] }[];
+}
+
+const deck = raw as RawDeck;
+
+export const DECK_TITLE = deck.title;
+export const DECK_PERIOD = deck.period;
+
+export const CARDS: Card[] = [];
+export const CARD = new Map<string, Card>();
+export const BASKETS: Basket[] = [];
+export const BASKET = new Map<string, Basket>();
+export const GROUPS: Group[] = deck.groups.map((g) => ({ ...g, basketIds: [] }));
+export const GROUP = new Map(GROUPS.map((g) => [g.id, g]));
+
+for (const b of deck.baskets) {
+  const basket: Basket = { id: b.id, group: b.group, title: b.title, years: b.years, blurb: b.blurb, cardIds: [] };
+  for (const c of b.cards) {
+    const card: Card = { ...c, basket: b.id, group: b.group, index: CARDS.length };
+    CARDS.push(card);
+    CARD.set(card.id, card);
+    basket.cardIds.push(card.id);
   }
-  return { total: all.length, due, fresh, learned };
+  BASKETS.push(basket);
+  BASKET.set(basket.id, basket);
+  GROUP.get(b.group)?.basketIds.push(b.id);
 }
 
-export function buildQueue(s: ProgressState, topicIds: string[], mode: DirectionMode, newLimit: number, now = Date.now()): QueueCard[] {
-  const all = candidates(topicIds, mode);
-  const cutoff = endOfDay(now);
-  const due = all
-    .filter((c) => {
-      const card = s.srs[cardKey(c.termId, c.dir)];
-      return card && card.due <= cutoff;
-    })
-    .sort((a, b) => s.srs[cardKey(a.termId, a.dir)].due - s.srs[cardKey(b.termId, b.dir)].due);
-  const fresh = all.filter((c) => !s.srs[cardKey(c.termId, c.dir)]).slice(0, newLimit);
-  // Weave new cards in after every few reviews so a session never front-loads
-  // all the unfamiliar material.
-  const out: QueueCard[] = [];
-  let i = 0;
-  let j = 0;
-  while (i < due.length || j < fresh.length) {
-    for (let k = 0; k < 3 && i < due.length; k++) out.push(due[i++]);
-    if (j < fresh.length) out.push(fresh[j++]);
-  }
-  return out;
+export const ALL_BASKET_IDS = BASKETS.map((b) => b.id);
+
+/** Card ids of the given baskets, in deck order. */
+export function cardsOf(basketIds: Iterable<string>): string[] {
+  const wanted = new Set(basketIds);
+  return CARDS.filter((c) => wanted.has(c.basket)).map((c) => c.id);
+}
+
+/** "Jefferson’s Presidency", "Jefferson’s Presidency + 2 more", "All 22 baskets". */
+export function basketsLabel(basketIds: string[]): string {
+  const ids = ALL_BASKET_IDS.filter((id) => basketIds.includes(id));
+  if (ids.length === 0) return 'No baskets';
+  if (ids.length === BASKETS.length) return `All ${BASKETS.length} baskets`;
+  const first = BASKET.get(ids[0])!.title;
+  return ids.length === 1 ? first : `${first} + ${ids.length - 1} more`;
 }

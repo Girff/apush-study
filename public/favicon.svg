@@ -1,5 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="4" y="4" width="56" height="56" rx="8" fill="#f6f1e7" stroke="#8a2b1d" stroke-width="4"/>
-  <rect x="10" y="10" width="44" height="44" rx="4" fill="none" stroke="#8a2b1d" stroke-width="1.5"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#1f1b16">P4</text>
+  <rect width="64" height="64" rx="14" fill="#8a2b1d"/>
+  <rect x="10" y="15" width="44" height="34" rx="5" fill="#e4d6bb" transform="rotate(-10 32 32)"/>
+  <rect x="10" y="15" width="44" height="34" rx="5" fill="#fbf7ee"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#1f1b16">P4</text>
 </svg>

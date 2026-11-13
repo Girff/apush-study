@@ -1,35 +1,42 @@
 <!doctype html>
-<html lang="en" data-theme="parchment" data-motion="full">
+<html lang="en" data-theme="parchment" data-motion="full" data-text="md">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="description" content="Period 4 (1800–1848): an interactive exhibit and study app for AP U.S. History Unit 4, built on The American Yawp, chapters 7–11." />
+    <meta name="description" content="Flashcards for AP U.S. History Unit 4 (Period 4, 1800–1848): 286 cards sorted into topic baskets like Jefferson’s presidency, Jacksonian democracy, Indian removal and reform movements, with practice and spaced review." />
     <meta name="theme-color" content="#f6f1e7" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <title>Period 4 · APUSH Unit 4, 1800–1848</title>
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <title>APUSH Unit 4 Flashcards · Period 4, 1800–1848</title>
     <script>
-      // Apply saved theme + motion before first paint (no flash of the wrong theme).
+      // Apply saved theme, motion and text size before first paint (no flash of the wrong theme).
       (function () {
         var d = document.documentElement;
-        try {
-          var p = JSON.parse(localStorage.getItem('exhibit.prefs') || '{}');
-          var dark = p.theme === 'lamplight' || ((!p.theme || p.theme === 'system') && matchMedia('(prefers-color-scheme: dark)').matches);
-          var calm = p.motion === 'reduce' || ((!p.motion || p.motion === 'system') && matchMedia('(prefers-reduced-motion: reduce)').matches);
-          d.setAttribute('data-theme', dark ? 'lamplight' : 'parchment');
-          d.setAttribute('data-motion', calm ? 'reduce' : 'full');
-        } catch (e) {
+        var mq = function (q) {
           try {
-            if (matchMedia('(prefers-color-scheme: dark)').matches) d.setAttribute('data-theme', 'lamplight');
-            if (matchMedia('(prefers-reduced-motion: reduce)').matches) d.setAttribute('data-motion', 'reduce');
-          } catch (e2) {}
-        }
+            return matchMedia(q).matches;
+          } catch (e) {
+            return false;
+          }
+        };
+        var p = {};
+        try {
+          p = JSON.parse(localStorage.getItem('p4cards.prefs') || '{}') || {};
+        } catch (e) {}
+        var dark = p.theme === 'dark' || (p.theme !== 'light' && mq('(prefers-color-scheme: dark)'));
+        var calm = p.motion === 'reduce' || (p.motion !== 'full' && mq('(prefers-reduced-motion: reduce)'));
+        d.setAttribute('data-theme', dark ? 'lamplight' : 'parchment');
+        d.setAttribute('data-motion', calm ? 'reduce' : 'full');
+        if (p.text === 'sm' || p.text === 'lg') d.setAttribute('data-text', p.text);
+        if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#17130f');
       })();
     </script>
   </head>
   <body>
     <div id="root"></div>
     <noscript>
-      <p style="padding:2rem;font-family:Georgia,serif">Period 4 is an interactive study app and needs JavaScript turned on.</p>
+      <p style="padding:2rem;font-family:Georgia,serif">These flashcards need JavaScript turned on.</p>
     </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>

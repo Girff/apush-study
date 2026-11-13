@@ -20,11 +20,3 @@ export function shuffle<T>(items: readonly T[], rng: Rng = Math.random): T[] {
   }
   return out;
 }
-
-export function sample<T>(items: readonly T[], n: number, rng: Rng = Math.random): T[] {
-  return shuffle(items, rng).slice(0, Math.max(0, n));
-}
-
-export function pick<T>(items: readonly T[], rng: Rng = Math.random): T {
-  return items[Math.floor(rng() * items.length)];
-}
