@@ -1,0 +1,2499 @@
+{
+  "version": 1,
+  "title": "APUSH Unit 4 Flashcards",
+  "period": "Period 4, 1800–1848",
+  "groups": [
+    {
+      "id": "early",
+      "title": "The Early Republic",
+      "years": "1800–1815"
+    },
+    {
+      "id": "nation",
+      "title": "Nationalism & Sectionalism",
+      "years": "1815–1824"
+    },
+    {
+      "id": "jackson",
+      "title": "The Age of Jackson",
+      "years": "1824–1841"
+    },
+    {
+      "id": "society",
+      "title": "Economy & Society",
+      "years": "1800–1850"
+    },
+    {
+      "id": "reform",
+      "title": "Religion, Reform & Culture",
+      "years": "1800–1848"
+    },
+    {
+      "id": "slavery",
+      "title": "Slavery & Black America",
+      "years": "1790–1860"
+    }
+  ],
+  "baskets": [
+    {
+      "id": "jefferson",
+      "group": "early",
+      "title": "Jefferson’s Presidency",
+      "years": "1800–1809",
+      "blurb": "The election of 1800, Jefferson’s small-government agenda, the Louisiana Purchase and the fight over neutral rights.",
+      "cards": [
+        {
+          "id": "election-of-1800",
+          "term": "Election of 1800",
+          "def": "Thomas Jefferson’s Democratic-Republicans defeated John Adams’s Federalists; after an Electoral College tie between Jefferson and his running mate, Aaron Burr, the House chose Jefferson. It was the first peaceful transfer of power between rival parties.",
+          "yawp": "7.I"
+        },
+        {
+          "id": "revolution-of-1800",
+          "term": "“Revolution of 1800”",
+          "def": "Jefferson’s own name for his election, which he called as real a revolution in the principles of government as 1776 was in its form, won by the people’s votes rather than the sword.",
+          "yawp": "7.III"
+        },
+        {
+          "id": "thomas-jefferson",
+          "term": "Thomas Jefferson",
+          "def": "Third president (1801–1809), a Democratic-Republican who cut taxes, the national debt and the army, favored strict construction and a republic of independent yeoman farmers, yet doubled the nation’s size with the Louisiana Purchase.",
+          "yawp": "7.I–IV, 7.IV",
+          "alts": [
+            "Jefferson"
+          ]
+        },
+        {
+          "id": "democratic-republicans",
+          "term": "Democratic-Republicans",
+          "def": "Party of Jefferson and Madison that favored a limited federal government, strict construction, states’ rights and an agrarian economy, and grew by promising wider voting rights; it dominated national politics after 1800.",
+          "yawp": "7.I, 7.IV",
+          "alts": [
+            "Democratic-Republican Party",
+            "Republicans",
+            "Jeffersonian Republicans"
+          ]
+        },
+        {
+          "id": "federalists",
+          "term": "Federalists",
+          "def": "Party of Alexander Hamilton and John Adams that favored a strong central government, commerce and banking, and leadership by educated elites wary of direct popular rule; it declined after 1800 and collapsed after the War of 1812.",
+          "yawp": "7.I, 7.III",
+          "alts": [
+            "Federalist Party"
+          ]
+        },
+        {
+          "id": "fisher-ames",
+          "term": "Fisher Ames",
+          "def": "Massachusetts Federalist who lamented that Jefferson’s victory had dragged the nation “into the mire of a democracy.”",
+          "yawp": "7.III"
+        },
+        {
+          "id": "louisiana-purchase-1803",
+          "term": "Louisiana Purchase (1803)",
+          "def": "Purchase of France’s vast territory west of the Mississippi for $15 million, which doubled the size of the United States and secured the port of New Orleans for western farmers.",
+          "yawp": "7.IV"
+        },
+        {
+          "id": "napoleon-bonaparte",
+          "term": "Napoleon Bonaparte",
+          "def": "French ruler who, after his army in Haiti was destroyed by revolution and yellow fever, sold all of Louisiana to the United States in 1803; his foreign minister, Talleyrand, made the offer.",
+          "yawp": "7.IV",
+          "alts": [
+            "Napoleon"
+          ]
+        },
+        {
+          "id": "robert-r-livingston",
+          "term": "Robert R. Livingston",
+          "def": "U.S. minister to France who, with James Monroe, negotiated the Louisiana Purchase in 1803.",
+          "yawp": "7.IV",
+          "alts": [
+            "Robert Livingston"
+          ]
+        },
+        {
+          "id": "strict-vs-loose-construction",
+          "term": "Strict vs. loose construction",
+          "def": "Debate over reading the Constitution narrowly, allowing only the powers it lists, or broadly, allowing implied powers too; Jefferson read it narrowly yet bought Louisiana, though the Constitution says nothing about acquiring land.",
+          "yawp": "7.IV",
+          "alts": [
+            "strict construction",
+            "loose construction",
+            "strict vs loose interpretation"
+          ]
+        },
+        {
+          "id": "haitian-revolution-1791-1804",
+          "term": "Haitian Revolution (1791–1804)",
+          "def": "Uprising of enslaved people in the French colony of Saint-Domingue that created independent Haiti in 1804; it inspired Black Americans, terrified white enslavers and led Napoleon to sell Louisiana.",
+          "yawp": "7.II, 7.IV"
+        },
+        {
+          "id": "lewis-and-clark-expedition-1804-1806",
+          "term": "Lewis and Clark Expedition (1804–1806)",
+          "def": "Expedition commissioned by Jefferson that explored the Louisiana Purchase and reached the Pacific Ocean, guided in part by the Shoshone interpreter Sacagawea.",
+          "alts": [
+            "Lewis and Clark",
+            "Corps of Discovery"
+          ],
+          "added": true
+        },
+        {
+          "id": "barbary-war-1801-1805",
+          "term": "Barbary War (1801–1805)",
+          "def": "Naval war Jefferson fought against Tripoli, a North African state whose corsairs seized American merchant ships unless the United States paid tribute.",
+          "alts": [
+            "First Barbary War",
+            "Tripolitan War"
+          ],
+          "added": true
+        },
+        {
+          "id": "impressment",
+          "term": "Impressment",
+          "def": "British practice of forcing sailors, including about 6,000 Americans between 1803 and 1812, to serve in the Royal Navy; a leading cause of the War of 1812.",
+          "yawp": "7.IV, 7.VI"
+        },
+        {
+          "id": "chesapeake-leopard-affair-1807",
+          "term": "Chesapeake–Leopard Affair (1807)",
+          "def": "1807 attack in which a British warship fired on an American naval frigate off Virginia, killing three sailors and seizing four as deserters; the outrage led to the Embargo Act.",
+          "yawp": "7.IV",
+          "alts": [
+            "Chesapeake affair",
+            "Chesapeake incident",
+            "USS Chesapeake"
+          ]
+        },
+        {
+          "id": "embargo-act-of-1807",
+          "term": "Embargo Act of 1807",
+          "def": "Jefferson’s ban on American ships sailing to foreign ports, meant to pressure Britain and France; exports collapsed from $108 million to $22 million, devastating New England’s shipping towns.",
+          "yawp": "7.IV, 7.VI",
+          "alts": [
+            "Embargo Act",
+            "Embargo of 1807"
+          ]
+        },
+        {
+          "id": "peaceable-coercion",
+          "term": "Peaceable coercion",
+          "def": "Jefferson’s strategy of using economic pressure instead of war to make Britain and France respect American shipping rights.",
+          "yawp": "7.IV"
+        },
+        {
+          "id": "sally-hemings",
+          "term": "Sally Hemings",
+          "def": "Woman enslaved by Jefferson at Monticello; in 1802 journalist James Callender reported that Jefferson had fathered her children, a claim that DNA evidence and most historians now support.",
+          "yawp": "7.IV"
+        }
+      ]
+    },
+    {
+      "id": "marshall",
+      "group": "early",
+      "title": "The Marshall Court",
+      "years": "1801–1835",
+      "blurb": "How Chief Justice John Marshall’s Supreme Court strengthened the judiciary, federal power and contracts.",
+      "cards": [
+        {
+          "id": "john-marshall",
+          "term": "John Marshall",
+          "def": "Chief Justice (1801–1835) whose rulings established judicial review, strengthened federal power over the states and protected contracts and property.",
+          "added": true
+        },
+        {
+          "id": "marbury-v-madison-1803",
+          "term": "Marbury v. Madison (1803)",
+          "def": "Case in which the Supreme Court first struck down a federal law as unconstitutional, establishing the power of judicial review.",
+          "alts": [
+            "Marbury"
+          ],
+          "added": true
+        },
+        {
+          "id": "mcculloch-v-maryland-1819",
+          "term": "McCulloch v. Maryland (1819)",
+          "def": "Ruling that Congress could charter a national bank under its implied powers and that states could not tax it, because “the power to tax involves the power to destroy.”",
+          "alts": [
+            "McCulloch"
+          ],
+          "added": true
+        },
+        {
+          "id": "dartmouth-college-v-woodward-1819",
+          "term": "Dartmouth College v. Woodward (1819)",
+          "def": "Ruling that a corporate charter is a contract a state cannot change, protecting private corporations from state interference.",
+          "yawp": "8.II",
+          "alts": [
+            "Dartmouth College case",
+            "Dartmouth College"
+          ]
+        },
+        {
+          "id": "gibbons-v-ogden-1824",
+          "term": "Gibbons v. Ogden (1824)",
+          "def": "Ruling that only Congress can regulate interstate commerce, which struck down New York’s steamboat monopoly and encouraged a national market.",
+          "alts": [
+            "Gibbons"
+          ],
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "native",
+      "group": "early",
+      "title": "Native Resistance",
+      "years": "1790s–1818",
+      "blurb": "Native confederacies, Tecumseh’s movement, the Creek War and the struggle over Florida.",
+      "cards": [
+        {
+          "id": "play-off-system",
+          "term": "Play-off system",
+          "def": "Native diplomatic strategy of balancing rival empires (Britain, Spain and the United States) against one another to protect land and independence.",
+          "yawp": "7.V"
+        },
+        {
+          "id": "red-jacket",
+          "term": "Red Jacket",
+          "def": "Seneca orator and diplomat who defended Native sovereignty and traditional religion against American pressure and Christian missionaries.",
+          "yawp": "7.V"
+        },
+        {
+          "id": "western-confederacy",
+          "term": "Western Confederacy",
+          "def": "Alliance of Ohio Valley and Great Lakes nations, led by Little Turtle and Blue Jacket, that destroyed two U.S. armies in 1790 and 1791 before its defeat at Fallen Timbers in 1794.",
+          "yawp": "7.V",
+          "alts": [
+            "Northwestern Confederacy"
+          ]
+        },
+        {
+          "id": "battle-of-fallen-timbers-treaty-of-greenville-1794-1795",
+          "term": "Battle of Fallen Timbers & Treaty of Greenville (1794–1795)",
+          "def": "General Anthony Wayne’s 1794 victory over the Western Confederacy in Ohio, followed by a 1795 treaty in which Native nations ceded most of present-day Ohio.",
+          "yawp": "7.V",
+          "alts": [
+            "Battle of Fallen Timbers",
+            "Fallen Timbers",
+            "Treaty of Greenville"
+          ]
+        },
+        {
+          "id": "tecumseh",
+          "term": "Tecumseh",
+          "def": "Shawnee leader who built a pan-Indian confederacy to resist U.S. expansion and fought alongside the British in the War of 1812 until he was killed in 1813.",
+          "yawp": "7.V"
+        },
+        {
+          "id": "tenskwatawa-the-prophet",
+          "term": "Tenskwatawa (“the Prophet”)",
+          "def": "Shawnee religious leader, Tecumseh’s brother, who led a revival urging Native peoples to reject American goods, alcohol and customs.",
+          "yawp": "7.V",
+          "alts": [
+            "Prophet"
+          ]
+        },
+        {
+          "id": "prophetstown",
+          "term": "Prophetstown",
+          "def": "Village in Indiana Territory, founded in 1808 by Tecumseh and his brother, that was the center of their pan-Indian movement.",
+          "yawp": "7.V"
+        },
+        {
+          "id": "battle-of-tippecanoe-1811",
+          "term": "Battle of Tippecanoe (1811)",
+          "def": "1811 battle near Prophetstown between Governor William Henry Harrison’s troops and Tenskwatawa’s followers; Harrison’s men then burned the town, weakening Tecumseh’s confederacy.",
+          "yawp": "7.V",
+          "alts": [
+            "Tippecanoe"
+          ]
+        },
+        {
+          "id": "william-henry-harrison",
+          "term": "William Henry Harrison",
+          "def": "Indiana territorial governor who won at Tippecanoe (1811) and the Thames (1813); later the Whig president who died a month after taking office in 1841.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "battle-of-the-thames-1813",
+          "term": "Battle of the Thames (1813)",
+          "def": "U.S. victory in Upper Canada (Ontario) in which Tecumseh was killed, ending his confederacy’s resistance.",
+          "yawp": "7.V",
+          "alts": [
+            "Thames",
+            "Battle of Moraviantown"
+          ]
+        },
+        {
+          "id": "red-sticks",
+          "term": "Red Sticks",
+          "def": "Creek faction, inspired by Tecumseh’s movement, that fought Creeks who favored accommodation with the United States, setting off the Creek War of 1813–1814.",
+          "yawp": "7.V",
+          "alts": [
+            "Creek War",
+            "Creek civil war"
+          ]
+        },
+        {
+          "id": "battle-of-horseshoe-bend-1814",
+          "term": "Battle of Horseshoe Bend (1814)",
+          "def": "Andrew Jackson’s army, with Cherokee and allied Creek warriors, crushed the Red Sticks in Alabama, ending the Creek War.",
+          "yawp": "7.V, 9.IV",
+          "alts": [
+            "Horseshoe Bend"
+          ]
+        },
+        {
+          "id": "treaty-of-fort-jackson-1814",
+          "term": "Treaty of Fort Jackson (1814)",
+          "def": "Treaty Jackson forced on the whole Creek Nation, even the Creeks who had fought beside him, that took a huge share of their land in Alabama and Georgia and opened it to cotton and slavery.",
+          "yawp": "7.V"
+        },
+        {
+          "id": "negro-fort-1816",
+          "term": "“Negro Fort” (1816)",
+          "def": "Fort on Florida’s Apalachicola River held by people who had escaped slavery and their Native allies; U.S. forces destroyed it in 1816, killing about 270 people.",
+          "yawp": "9.IV"
+        },
+        {
+          "id": "first-seminole-war-1817-1818",
+          "term": "First Seminole War (1817–1818)",
+          "def": "Andrew Jackson’s invasion of Spanish Florida, where he attacked Seminole towns and seized Pensacola, pressuring Spain to give up Florida.",
+          "yawp": "9.IV"
+        }
+      ]
+    },
+    {
+      "id": "war1812",
+      "group": "early",
+      "title": "The War of 1812",
+      "years": "1809–1816",
+      "blurb": "Why the United States fought Britain again, the war’s key battles and what it changed.",
+      "cards": [
+        {
+          "id": "james-madison",
+          "term": "James Madison",
+          "def": "Fourth president (1809–1817), Jefferson’s secretary of state and a chief architect of the Constitution, who led the nation into the War of 1812.",
+          "yawp": "7.IV, 7.VI",
+          "alts": [
+            "Madison"
+          ]
+        },
+        {
+          "id": "war-hawks",
+          "term": "War Hawks",
+          "def": "Young congressmen from the South and West, led by Henry Clay and John C. Calhoun, who demanded war with Britain in 1812.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "war-of-1812-1812-1815",
+          "term": "War of 1812 (1812–1815)",
+          "def": "War with Britain, declared in June 1812, over impressment, trade restrictions and British support for Native resistance in the Old Northwest; it ended in a stalemate but boosted American nationalism.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "free-trade-and-sailors-rights",
+          "term": "“Free Trade and Sailors’ Rights”",
+          "def": "American rallying cry of the War of 1812, protesting British limits on neutral trade and the impressment of sailors.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "invasion-of-canada-1812-1813",
+          "term": "Invasion of Canada (1812–1813)",
+          "def": "Failed American attempts to conquer British Canada, where many Loyalists had settled, early in the War of 1812.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "uss-constitution-old-ironsides",
+          "term": "USS Constitution (“Old Ironsides”)",
+          "def": "U.S. Navy frigate whose 1812 victory over HMS Guerriere boosted American morale.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "dont-give-up-the-ship",
+          "term": "“Don’t give up the ship!”",
+          "def": "Dying command of Captain James Lawrence in 1813, which Oliver Hazard Perry flew on his battle flag at the Battle of Lake Erie.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "battle-of-lake-champlain-1814",
+          "term": "Battle of Lake Champlain (1814)",
+          "def": "U.S. naval victory at Plattsburgh, New York, in September 1814 that turned back a British invasion from Canada.",
+          "yawp": "7.VI",
+          "alts": [
+            "Battle of Plattsburgh",
+            "Plattsburgh",
+            "Lake Champlain"
+          ]
+        },
+        {
+          "id": "burning-of-washington-1814",
+          "term": "Burning of Washington (1814)",
+          "def": "British troops captured the capital and set fire to the Capitol and the White House on August 24, 1814.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "fort-mchenry-1814",
+          "term": "Fort McHenry (1814)",
+          "def": "Baltimore fort that withstood a British bombardment in September 1814, inspiring Francis Scott Key to write “The Star-Spangled Banner.”",
+          "yawp": "7.VI",
+          "alts": [
+            "Battle of Baltimore"
+          ]
+        },
+        {
+          "id": "hartford-convention-1814-1815",
+          "term": "Hartford Convention (1814–1815)",
+          "def": "Meeting of New England Federalists who opposed the war and proposed constitutional amendments, such as ending the three-fifths clause; it ended just as news of peace arrived, making the party look disloyal.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "treaty-of-ghent-1814",
+          "term": "Treaty of Ghent (1814)",
+          "def": "Treaty signed on December 24, 1814, that ended the War of 1812 and restored prewar borders without settling impressment.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "battle-of-new-orleans-1815",
+          "term": "Battle of New Orleans (1815)",
+          "def": "Andrew Jackson’s crushing January 1815 victory over a British invasion force, fought after the peace treaty was signed but before news of it arrived; it made him a national hero.",
+          "yawp": "7.VI, 9.IV"
+        },
+        {
+          "id": "collapse-of-the-federalist-party",
+          "term": "Collapse of the Federalist Party",
+          "def": "After the Hartford Convention made the party look disloyal and its last presidential candidate, Rufus King, lost badly to James Monroe in 1816, Hamilton’s old party faded from national politics.",
+          "yawp": "7.VI, 7.VII, 7.IV",
+          "alts": [
+            "death of the Federalist Party",
+            "decline of the Federalist Party",
+            "end of the Federalists"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "goodfeelings",
+      "group": "nation",
+      "title": "Era of Good Feelings",
+      "years": "1815–1825",
+      "blurb": "Postwar nationalism, Clay’s American System, Monroe’s presidency and his diplomacy.",
+      "cards": [
+        {
+          "id": "james-monroe",
+          "term": "James Monroe",
+          "def": "Fifth president (1817–1825), a Virginia Democratic-Republican whose two terms brought one-party rule and the 1823 declaration warning Europe out of the Western Hemisphere.",
+          "alts": [
+            "Monroe"
+          ],
+          "added": true
+        },
+        {
+          "id": "era-of-good-feelings",
+          "term": "Era of Good Feelings",
+          "def": "Name for James Monroe’s presidency (1817–1825), when the Federalists had faded and one party ruled, though sectional tensions and the Panic of 1819 lay beneath the calm.",
+          "yawp": "7.VII"
+        },
+        {
+          "id": "postwar-nationalism",
+          "term": "Postwar nationalism",
+          "def": "Surge of national pride after the War of 1812, which Albert Gallatin said had revived “national feelings”; it fueled support for a national bank, a protective tariff and federally funded roads and canals.",
+          "yawp": "7.VI",
+          "alts": [
+            "American nationalism",
+            "nationalism"
+          ]
+        },
+        {
+          "id": "american-system",
+          "term": "American System",
+          "def": "Henry Clay’s plan to unify and strengthen the national economy with a protective tariff for industry, a national bank for credit and federally funded internal improvements.",
+          "yawp": "7.VI"
+        },
+        {
+          "id": "henry-clay",
+          "term": "Henry Clay",
+          "def": "Kentucky congressman, House Speaker and senator who led the War Hawks, promoted the American System, brokered the compromises of 1820 and 1833 and led the Whig Party; the “Great Compromiser.”",
+          "yawp": "7.VI, 9.III",
+          "alts": [
+            "Clay"
+          ]
+        },
+        {
+          "id": "tariff-of-1816",
+          "term": "Tariff of 1816",
+          "def": "First protective tariff in U.S. history, which taxed imports to shield American manufacturers from British competition after the War of 1812; Southern anger over such tariffs grew.",
+          "yawp": "7.VI, 9.V",
+          "alts": [
+            "protective tariff"
+          ]
+        },
+        {
+          "id": "internal-improvements",
+          "term": "Internal improvements",
+          "def": "Transportation projects such as roads and canals; nationalists wanted Congress to fund them, but Madison vetoed the 1817 Bonus Bill, believing the Constitution did not allow it without an amendment.",
+          "yawp": "7.VI, 8.II"
+        },
+        {
+          "id": "panic-of-1819",
+          "term": "Panic of 1819",
+          "def": "First major U.S. depression, caused by land speculation, collapsing crop prices and the national bank’s sudden tightening of credit; many Americans blamed the bank.",
+          "yawp": "9.V, 9.VII"
+        },
+        {
+          "id": "westward-expansion",
+          "term": "Westward expansion",
+          "def": "Movement of settlers across the Appalachians and the Mississippi that added new states, among them Ohio, Indiana, Mississippi and Illinois, and pitted settlers against Native nations.",
+          "yawp": "10.I, 7.VI"
+        },
+        {
+          "id": "rush-bagot-agreement-1817",
+          "term": "Rush–Bagot Agreement (1817)",
+          "def": "U.S.–British agreement that limited warships on the Great Lakes and Lake Champlain, a first step toward an unfortified border with Canada.",
+          "alts": [
+            "Rush-Bagot"
+          ],
+          "added": true
+        },
+        {
+          "id": "convention-of-1818",
+          "term": "Convention of 1818",
+          "def": "U.S.–British agreement that set the 49th parallel as the border from the Lake of the Woods to the Rocky Mountains and allowed joint occupation of Oregon.",
+          "added": true
+        },
+        {
+          "id": "adams-onis-treaty-1819",
+          "term": "Adams–Onís Treaty (1819)",
+          "def": "Treaty in which Spain ceded Florida to the United States and agreed on a boundary running to the Pacific; in return the United States gave up its claim to Texas.",
+          "yawp": "9.IV",
+          "alts": [
+            "Transcontinental Treaty",
+            "Florida Treaty"
+          ]
+        },
+        {
+          "id": "john-quincy-adams",
+          "term": "John Quincy Adams",
+          "def": "Monroe’s secretary of state, who negotiated the 1819 treaty that gained Florida and shaped the 1823 doctrine closing the Americas to new colonization; sixth president (1825–1829) after the House chose him in 1824.",
+          "yawp": "7.VI, 9.IV"
+        },
+        {
+          "id": "monroe-doctrine-1823",
+          "term": "Monroe Doctrine (1823)",
+          "def": "Declaration that the Western Hemisphere was closed to new European colonization and that the United States would stay out of European affairs, issued as Latin American nations won independence.",
+          "yawp": "7.VI"
+        }
+      ]
+    },
+    {
+      "id": "missouri",
+      "group": "nation",
+      "title": "Sectionalism & the Missouri Compromise",
+      "years": "1815–1820",
+      "blurb": "Regional rivalry and the first great political crisis over slavery’s expansion.",
+      "cards": [
+        {
+          "id": "antebellum-period",
+          "term": "Antebellum period",
+          "def": "The decades before the Civil War, roughly 1815–1861, marked by economic growth, religious revival, reform and deepening conflict over slavery.",
+          "yawp": "7.II",
+          "alts": [
+            "antebellum era",
+            "antebellum"
+          ]
+        },
+        {
+          "id": "sectionalism",
+          "term": "Sectionalism",
+          "def": "Loyalty to one’s own region (North, South or West) over the nation as a whole, which grew as the regions competed over tariffs, internal improvements, banking and slavery.",
+          "yawp": "9.III"
+        },
+        {
+          "id": "virginia-dynasty",
+          "term": "Virginia dynasty",
+          "def": "The run of Virginian presidents (Washington, Jefferson, Madison and Monroe held the office for 32 of its first 36 years) that made a growing North wary of Southern power.",
+          "yawp": "9.III"
+        },
+        {
+          "id": "missouri-crisis-1819-1820",
+          "term": "Missouri Crisis (1819–1820)",
+          "def": "Fight over whether Missouri would enter the Union as a slave state, which would upset the even balance of free and slave states in the Senate.",
+          "yawp": "9.III"
+        },
+        {
+          "id": "tallmadge-amendment-1819",
+          "term": "Tallmadge Amendment (1819)",
+          "def": "New York congressman James Tallmadge’s proposal to bar bringing more enslaved people into Missouri and to free children born to enslaved parents there at age 25; it passed the House along sectional lines but died in the Senate.",
+          "yawp": "9.III",
+          "alts": [
+            "Tallmadge"
+          ]
+        },
+        {
+          "id": "missouri-compromise-1820",
+          "term": "Missouri Compromise (1820)",
+          "def": "Deal that admitted Missouri as a slave state and Maine as a free state, keeping the Senate balanced, and banned slavery in the rest of the Louisiana Purchase north of 36°30′.",
+          "yawp": "9.III"
+        },
+        {
+          "id": "36-30-line",
+          "term": "36°30′ line",
+          "def": "Latitude, proposed by Illinois senator Jesse Thomas in the 1820 compromise, north of which slavery was banned in the Louisiana Purchase, except in Missouri.",
+          "yawp": "9.III",
+          "alts": [
+            "36 30",
+            "36 30 line",
+            "thirty-six thirty"
+          ]
+        },
+        {
+          "id": "fire-bell-in-the-night",
+          "term": "“Fire bell in the night”",
+          "def": "Thomas Jefferson’s 1820 image for the Missouri Crisis, which he feared was “the knell of the Union” because it drew a sectional line over slavery.",
+          "yawp": "9.III",
+          "alts": [
+            "fire bell"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jacksonian",
+      "group": "jackson",
+      "title": "Jacksonian Democracy",
+      "years": "1824–1841",
+      "blurb": "Who could vote, the elections of 1824–1840, Jackson’s style of rule and the new two-party system.",
+      "cards": [
+        {
+          "id": "jacksonian-democracy",
+          "term": "Jacksonian Democracy",
+          "def": "Expansion of political power to ordinary white men in the 1820s and 1830s, as states dropped property requirements, voter turnout soared and mass political parties formed.",
+          "yawp": "10.I",
+          "alts": [
+            "democratization"
+          ]
+        },
+        {
+          "id": "property-qualifications-for-voting",
+          "term": "Property qualifications for voting",
+          "def": "Requirements that voters own property; cheaper land and state reforms ended them for most white men, and by 1824 only three states still had them.",
+          "yawp": "7.IV, 9.XI",
+          "alts": [
+            "property qualifications",
+            "property requirements"
+          ]
+        },
+        {
+          "id": "new-york-constitution-of-1821",
+          "term": "New York Constitution of 1821",
+          "def": "State constitution that opened the vote to almost all white men but required Black men to own $250 in property, which shut most of them out.",
+          "yawp": "9.XI"
+        },
+        {
+          "id": "pennsylvania-constitution-of-1838",
+          "term": "Pennsylvania Constitution of 1838",
+          "def": "State constitution that limited voting to white men, stripping Black Pennsylvanians of the vote entirely.",
+          "yawp": "9.XI"
+        },
+        {
+          "id": "black-disfranchisement",
+          "term": "Black disfranchisement",
+          "def": "Stripping of voting rights from free Black men even as suffrage expanded for white men; only two states limited Black voting at the Revolution, but by 1839 almost all did.",
+          "yawp": "9.XI",
+          "alts": [
+            "Black disenfranchisement"
+          ]
+        },
+        {
+          "id": "election-of-1824",
+          "term": "Election of 1824",
+          "def": "Four-way race among Andrew Jackson, John Quincy Adams, William H. Crawford and Henry Clay with no Electoral College majority; the House chose Adams, though Jackson had won the most popular and electoral votes.",
+          "yawp": "9.IV"
+        },
+        {
+          "id": "corrupt-bargain",
+          "term": "“Corrupt bargain”",
+          "def": "Jacksonians’ charge that Henry Clay helped make John Quincy Adams president in 1824 in exchange for becoming secretary of state.",
+          "yawp": "9.IV"
+        },
+        {
+          "id": "election-of-1828",
+          "term": "Election of 1828",
+          "def": "Bitter, mudslinging rematch in which Andrew Jackson easily defeated President John Quincy Adams, carried by mass rallies, a new party organization and his image as a man of the people.",
+          "yawp": "9.IV"
+        },
+        {
+          "id": "andrew-jackson",
+          "term": "Andrew Jackson",
+          "def": "Seventh president (1829–1837), a War of 1812 hero and Tennessee enslaver of about 150 people, who expanded presidential power through the veto, destroyed the national bank and drove Indian removal.",
+          "yawp": "9.IV",
+          "alts": [
+            "Jackson"
+          ]
+        },
+        {
+          "id": "old-hickory",
+          "term": "“Old Hickory”",
+          "def": "Nickname that sold Andrew Jackson as a tough frontier soldier and self-made man of the common people.",
+          "yawp": "9.IV"
+        },
+        {
+          "id": "spoils-system",
+          "term": "Spoils system",
+          "def": "Practice of rewarding a winning party’s supporters with government jobs, which Jackson defended as “rotation in office.”",
+          "alts": [
+            "patronage",
+            "rotation in office"
+          ],
+          "added": true
+        },
+        {
+          "id": "kitchen-cabinet",
+          "term": "Kitchen Cabinet",
+          "def": "Jackson’s informal circle of friends and party editors, who influenced him more than his official department heads did.",
+          "added": true
+        },
+        {
+          "id": "eaton-affair-petticoat-affair",
+          "term": "Eaton Affair (“Petticoat Affair”)",
+          "def": "Scandal in which cabinet wives, led by Floride Calhoun, shunned Peggy Eaton, wife of the secretary of war; it broke up Jackson’s cabinet in 1831, lifting Van Buren and sinking Calhoun.",
+          "yawp": "9.VI",
+          "alts": [
+            "Peggy Eaton affair"
+          ]
+        },
+        {
+          "id": "democratic-party",
+          "term": "Democratic Party",
+          "def": "Party built by Jackson’s supporters and organized by Martin Van Buren, the first modern national party; it championed the common (white) man, limited federal government and opposition to the national bank.",
+          "yawp": "9.VII",
+          "alts": [
+            "Democrats"
+          ]
+        },
+        {
+          "id": "whig-party",
+          "term": "Whig Party",
+          "def": "Party formed in 1834 to oppose “King Andrew” Jackson; it backed Clay’s American System, a national bank and moral reform, and took its name from the Revolutionary-era opponents of royal tyranny.",
+          "yawp": "9.VII, 9.IX",
+          "alts": [
+            "Whigs"
+          ]
+        },
+        {
+          "id": "national-republicans",
+          "term": "National Republicans",
+          "def": "Supporters of John Quincy Adams and Henry Clay, strongest in the Northeast, who favored the American System; they joined the new Whig Party in the 1830s.",
+          "yawp": "9.IX",
+          "alts": [
+            "National Republican Party"
+          ]
+        },
+        {
+          "id": "anti-masonic-party",
+          "term": "Anti-Masonic Party",
+          "def": "Party sparked by the 1826 disappearance of William Morgan, a former Mason who planned to publish the order’s secrets; it attacked Freemasonry as a secret elite, pioneered the national nominating convention and later joined the Whigs.",
+          "yawp": "9.X",
+          "alts": [
+            "Anti-Masons"
+          ]
+        },
+        {
+          "id": "second-party-system",
+          "term": "Second Party System",
+          "def": "Two-party competition between Democrats and Whigs from the late 1820s to the early 1850s, marked by mass campaigns, party newspapers and record voter turnout.",
+          "added": true
+        },
+        {
+          "id": "martin-van-buren",
+          "term": "Martin Van Buren",
+          "def": "New York party organizer, the “Little Magician,” who served as Jackson’s vice president and won the presidency in 1836, only to be blamed for the Panic of 1837.",
+          "yawp": "9.V, 9.IX",
+          "alts": [
+            "Van Buren"
+          ]
+        },
+        {
+          "id": "election-of-1840",
+          "term": "Election of 1840",
+          "def": "Whig William Henry Harrison, nominated at the party’s first national convention, defeated President Van Buren with a populist campaign of log cabins, hard cider and the slogan “Tippecanoe and Tyler Too!”",
+          "yawp": "9.IX",
+          "alts": [
+            "Log Cabin campaign"
+          ]
+        },
+        {
+          "id": "john-tyler",
+          "term": "John Tyler",
+          "def": "Vice president who became president when Harrison died in 1841 (“His Accidency”); a states’-rights Virginian, he vetoed Whig bills for a new national bank and was expelled from the party.",
+          "yawp": "9.IX",
+          "alts": [
+            "Tyler"
+          ]
+        },
+        {
+          "id": "alexis-de-tocqueville",
+          "term": "Alexis de Tocqueville",
+          "def": "French writer whose Democracy in America (1835) analyzed American equality, individualism and the habit of forming voluntary associations, and praised young American women’s independence.",
+          "yawp": "8.V",
+          "alts": [
+            "Tocqueville",
+            "de Tocqueville"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nullification",
+      "group": "jackson",
+      "title": "The Nullification Crisis",
+      "years": "1828–1833",
+      "blurb": "Tariffs, states’ rights and South Carolina’s showdown with Jackson.",
+      "cards": [
+        {
+          "id": "john-c-calhoun",
+          "term": "John C. Calhoun",
+          "def": "South Carolina leader who began as a nationalist War Hawk and backer of roads and canals but became the champion of nullification, states’ rights and slavery; Jackson’s vice president until he resigned in 1832.",
+          "yawp": "7.VI",
+          "alts": [
+            "Calhoun",
+            "John Calhoun"
+          ]
+        },
+        {
+          "id": "tariff-of-1828-tariff-of-abominations",
+          "term": "Tariff of 1828 (“Tariff of Abominations”)",
+          "def": "High protective tariff that Southerners blamed for raising the prices they paid and hurting cotton exports, setting off the nullification controversy.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "south-carolina-exposition-and-protest-1828",
+          "term": "South Carolina Exposition and Protest (1828)",
+          "def": "Essay written secretly by Vice President John C. Calhoun arguing that a state could nullify a federal law it judged unconstitutional.",
+          "yawp": "9.V",
+          "alts": [
+            "South Carolina Exposition"
+          ]
+        },
+        {
+          "id": "virginia-and-kentucky-resolutions-1798-1799",
+          "term": "Virginia and Kentucky Resolutions (1798–1799)",
+          "def": "Resolutions written secretly by Jefferson and Madison against the Alien and Sedition Acts, arguing that states could judge federal laws; nullifiers later cited them as precedent.",
+          "yawp": "9.V",
+          "alts": [
+            "Kentucky and Virginia Resolutions"
+          ]
+        },
+        {
+          "id": "compact-theory",
+          "term": "Compact theory",
+          "def": "Idea that the Union is a compact among sovereign states, each of which may judge whether federal laws are constitutional; the basis for nullification.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "nullification",
+          "term": "Nullification",
+          "def": "Doctrine that a state can declare a federal law void within its borders if it judges the law unconstitutional.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "states-rights",
+          "term": "States’ rights",
+          "def": "Belief that the states keep powers the federal government cannot override; Southern leaders used it to defend nullification, slavery and, later, secession.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "webster-hayne-debate-1830",
+          "term": "Webster–Hayne debate (1830)",
+          "def": "1830 Senate debate in which a South Carolina senator defended states’ rights and a Massachusetts senator replied, “Liberty and Union, now and forever, one and inseparable!”",
+          "alts": [
+            "Webster-Hayne"
+          ],
+          "added": true
+        },
+        {
+          "id": "daniel-webster",
+          "term": "Daniel Webster",
+          "def": "Massachusetts senator and famed orator who defended the Union against nullification in 1830 and became a leader of the Whigs.",
+          "alts": [
+            "Webster"
+          ],
+          "added": true
+        },
+        {
+          "id": "jefferson-day-dinner-toasts-1830",
+          "term": "Jefferson Day dinner toasts (1830)",
+          "def": "At an April 1830 dinner honoring Jefferson, President Jackson toasted “Our Union: it must be preserved,” and Vice President Calhoun answered, “The Union, next to our liberty, most dear.”",
+          "yawp": "9.V",
+          "alts": [
+            "Jefferson dinner toasts",
+            "Jefferson Day dinner"
+          ]
+        },
+        {
+          "id": "ordinance-of-nullification-1832",
+          "term": "Ordinance of Nullification (1832)",
+          "def": "South Carolina’s November 1832 declaration that the federal tariffs of 1828 and 1832 were “null, void, and no law” within the state.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "force-bill-1833",
+          "term": "Force Bill (1833)",
+          "def": "Law authorizing President Jackson to use the army and navy to collect federal tariffs in South Carolina.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "compromise-tariff-of-1833",
+          "term": "Compromise Tariff of 1833",
+          "def": "Henry Clay’s plan, backed by Calhoun, to lower tariff rates gradually over ten years; South Carolina then repealed its ordinance, ending the crisis.",
+          "yawp": "9.V",
+          "alts": [
+            "Compromise Tariff"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bankwar",
+      "group": "jackson",
+      "title": "The Bank War & Panic of 1837",
+      "years": "1816–1841",
+      "blurb": "Jackson’s war on the national bank, the boom it set off and the depression that followed.",
+      "cards": [
+        {
+          "id": "second-bank-of-the-united-states",
+          "term": "Second Bank of the United States",
+          "def": "National bank in Philadelphia, chartered in 1816 to stabilize the currency and credit; many blamed it for the Panic of 1819, and Jackson destroyed it in the Bank War.",
+          "yawp": "9.VII, 7.VI",
+          "alts": [
+            "Second Bank",
+            "Bank of the United States",
+            "BUS"
+          ]
+        },
+        {
+          "id": "nicholas-biddle",
+          "term": "Nicholas Biddle",
+          "def": "President of the Second Bank who, encouraged by Henry Clay, sought early recharter in 1832, provoking Jackson’s veto.",
+          "yawp": "9.VII",
+          "alts": [
+            "Biddle"
+          ]
+        },
+        {
+          "id": "bank-war",
+          "term": "Bank War",
+          "def": "Jackson’s “war to the death” (1832–1836) on the Second Bank, which he called an unconstitutional tool of wealthy elites.",
+          "yawp": "9.VII"
+        },
+        {
+          "id": "bank-veto-1832",
+          "term": "Bank Veto (1832)",
+          "def": "Jackson’s July 1832 veto of the Second Bank’s recharter, which attacked the bank as unconstitutional and a tool to make “the rich richer”; Jacksonians cast its backers as a “monied aristocracy.”",
+          "yawp": "9.VII",
+          "alts": [
+            "Bank veto of 1832"
+          ]
+        },
+        {
+          "id": "pet-banks-1833",
+          "term": "Pet banks (1833)",
+          "def": "State banks, often run by Jackson’s political allies, that received federal deposits after he moved them out of the Second Bank in 1833.",
+          "yawp": "9.VII"
+        },
+        {
+          "id": "king-andrew-the-first",
+          "term": "“King Andrew the First”",
+          "def": "Whig nickname, spread by a famous cartoon, mocking Jackson as a tyrant who trampled the Constitution with his vetoes and executive power.",
+          "yawp": "9.VII, 9.IX",
+          "alts": [
+            "King Andrew"
+          ]
+        },
+        {
+          "id": "maysville-road-veto-1830",
+          "term": "Maysville Road veto (1830)",
+          "def": "Jackson’s veto of federal money for a road lying entirely within Kentucky, which he called an unconstitutional local project; a blow to Clay’s American System.",
+          "alts": [
+            "Maysville Road"
+          ],
+          "added": true
+        },
+        {
+          "id": "specie-circular-1836",
+          "term": "Specie Circular (1836)",
+          "def": "Jackson’s July 1836 order requiring payment in gold or silver for federal land, meant to curb a speculative boom fueled by easy credit and paper money; it helped burst the bubble.",
+          "yawp": "9.VIII"
+        },
+        {
+          "id": "panic-of-1837",
+          "term": "Panic of 1837",
+          "def": "Severe depression that began just after Van Buren took office: New York banks faced runs, hundreds of banks failed and eight states and a territory defaulted on loans; hard times lasted into the 1840s.",
+          "yawp": "9.VIII, 8.II"
+        },
+        {
+          "id": "independent-treasury",
+          "term": "Independent Treasury",
+          "def": "Van Buren’s system for keeping federal money in government vaults instead of banks, enacted in 1840; the Whigs repealed it in 1841, and Democrats restored it in 1846.",
+          "alts": [
+            "Independent Treasury System",
+            "subtreasury"
+          ],
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "removal",
+      "group": "jackson",
+      "title": "Indian Removal",
+      "years": "1830–1842",
+      "blurb": "The Indian Removal Act, the Cherokee fight in the courts, the Trail of Tears and Native resistance.",
+      "cards": [
+        {
+          "id": "indian-removal-act-1830",
+          "term": "Indian Removal Act (1830)",
+          "def": "Law, pushed by Jackson, that funded treaties to move Native nations from the Southeast to lands west of the Mississippi, opening millions of acres to white settlers and cotton planters.",
+          "yawp": "10.IV, 11.II"
+        },
+        {
+          "id": "five-tribes",
+          "term": "Five Tribes",
+          "def": "The Cherokee, Chickasaw, Choctaw, Muscogee (Creek) and Seminole nations of the Southeast, all forced west to Indian Territory in the 1830s.",
+          "alts": [
+            "Five Civilized Tribes"
+          ],
+          "added": true
+        },
+        {
+          "id": "cherokee-nation",
+          "term": "Cherokee Nation",
+          "def": "Southeastern nation that adopted a written language, a newspaper and a written constitution (1827), drew many missionaries and fought removal in the courts before being forced west.",
+          "yawp": "10.IV",
+          "alts": [
+            "Cherokee",
+            "Cherokees"
+          ]
+        },
+        {
+          "id": "sequoyah",
+          "term": "Sequoyah",
+          "def": "Cherokee silversmith who created a syllabary, a writing system for the Cherokee language, around 1821.",
+          "added": true
+        },
+        {
+          "id": "john-ross",
+          "term": "John Ross",
+          "def": "Principal Chief of the Cherokee Nation from 1828 who led its legal and political fight against removal.",
+          "added": true
+        },
+        {
+          "id": "cherokee-nation-v-georgia-1831",
+          "term": "Cherokee Nation v. Georgia (1831)",
+          "def": "Supreme Court ruling that the Cherokee were a “domestic dependent nation,” not a foreign state, so they could not sue Georgia in federal court.",
+          "added": true
+        },
+        {
+          "id": "worcester-v-georgia-1832",
+          "term": "Worcester v. Georgia (1832)",
+          "def": "Supreme Court ruling that Georgia’s laws had no force in Cherokee territory, which only the federal government could deal with; Georgia ignored it and Jackson did not enforce it.",
+          "yawp": "10.IV",
+          "alts": [
+            "Worcester"
+          ]
+        },
+        {
+          "id": "treaty-of-new-echota-1835",
+          "term": "Treaty of New Echota (1835)",
+          "def": "Treaty signed by a small Cherokee faction without the nation’s approval, giving up all Cherokee land in the East; the United States used it to force removal.",
+          "alts": [
+            "New Echota"
+          ],
+          "added": true
+        },
+        {
+          "id": "trail-of-tears-1838-1839",
+          "term": "Trail of Tears (1838–1839)",
+          "def": "Forced march of about 16,000 Cherokee to Indian Territory under U.S. Army guard, in which an estimated 4,000 died of disease, cold and hunger.",
+          "yawp": "9.XI, 10.IV, 11.VI"
+        },
+        {
+          "id": "indian-territory",
+          "term": "Indian Territory",
+          "def": "Land west of Arkansas, in present-day Oklahoma, set aside for Native nations removed from the East.",
+          "added": true
+        },
+        {
+          "id": "jeremiah-evarts",
+          "term": "Jeremiah Evarts",
+          "def": "Missionary leader who, writing as “William Penn,” published widely read essays condemning Indian removal.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "catharine-beechers-circular-1829",
+          "term": "Catharine Beecher’s “Circular” (1829)",
+          "def": "Appeal that launched the first major women’s petition campaign, against Indian removal.",
+          "yawp": "10.IV",
+          "alts": [
+            "Beecher’s Circular",
+            "Catharine Beecher"
+          ]
+        },
+        {
+          "id": "abcfm-american-board-of-commissioners-for-foreign-missions",
+          "term": "ABCFM (American Board of Commissioners for Foreign Missions)",
+          "def": "Protestant missionary board, founded in 1810, whose missionaries lived among the Cherokee and opposed their removal; one of them, Samuel Worcester, won a landmark Supreme Court case.",
+          "yawp": "10.IV",
+          "alts": [
+            "American Board"
+          ]
+        },
+        {
+          "id": "black-hawk-war-1832",
+          "term": "Black Hawk War (1832)",
+          "def": "1832 conflict in Illinois and Wisconsin after a Sauk leader brought his people back across the Mississippi to their homeland; U.S. troops and militia crushed them at the Bad Axe River.",
+          "added": true
+        },
+        {
+          "id": "second-seminole-war-1835-1842",
+          "term": "Second Seminole War (1835–1842)",
+          "def": "Long, costly war in Florida in which Seminoles, led in part by Osceola and joined by Black allies who had escaped slavery, resisted removal.",
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "market",
+      "group": "society",
+      "title": "The Market Revolution",
+      "years": "1800–1850",
+      "blurb": "Roads, canals, steam and rail, new inventions and the factory system.",
+      "cards": [
+        {
+          "id": "market-revolution",
+          "term": "Market Revolution",
+          "def": "Remaking of the economy, roughly 1800–1850, from local, household production to a national market of cash, wage labor and long-distance trade; booms and busts (panics) came with it.",
+          "yawp": "8.I"
+        },
+        {
+          "id": "transportation-revolution",
+          "term": "Transportation Revolution",
+          "def": "Rapid improvement in roads, canals, steamboats and railroads that cut shipping costs, opened the West to commerce and built booming hubs such as St. Louis and Chicago.",
+          "yawp": "8.II"
+        },
+        {
+          "id": "industrialization",
+          "term": "Industrialization",
+          "def": "Shift from hand production in homes and small shops to machine production in factories, centered in the Northeast, which drove new class divides and social tensions.",
+          "yawp": "10.I"
+        },
+        {
+          "id": "urbanization",
+          "term": "Urbanization",
+          "def": "Rapid growth of cities, North and South, driven by trade, industry and immigration, which sharpened divisions between rich and poor.",
+          "yawp": "10.I, 11.IV"
+        },
+        {
+          "id": "national-road-cumberland-road",
+          "term": "National Road (Cumberland Road)",
+          "def": "First major federally funded interstate highway, begun in western Maryland in 1811 and extended west across Ohio and Indiana into Illinois.",
+          "yawp": "8.II"
+        },
+        {
+          "id": "erie-canal-1825",
+          "term": "Erie Canal (1825)",
+          "def": "New York canal, about 360 miles long, linking the Hudson River to the Great Lakes; it slashed freight costs, made New York City the nation’s leading port and set off a canal-building boom, including canals across Ohio.",
+          "yawp": "8.II"
+        },
+        {
+          "id": "steamboats",
+          "term": "Steamboats",
+          "def": "Steam-powered boats that could travel upriver, opening the Mississippi and Ohio to two-way trade; the New Orleans first ran from Pittsburgh down to New Orleans in 1811–1812.",
+          "yawp": "8.I, 11.IV",
+          "alts": [
+            "steamboat",
+            "steam power"
+          ]
+        },
+        {
+          "id": "robert-fulton",
+          "term": "Robert Fulton",
+          "def": "Inventor whose Clermont began the first commercially successful steamboat service, on the Hudson River in 1807.",
+          "yawp": "8.II",
+          "alts": [
+            "Fulton"
+          ]
+        },
+        {
+          "id": "baltimore-ohio-railroad-1827",
+          "term": "Baltimore & Ohio Railroad (1827)",
+          "def": "First major long-distance U.S. railroad, chartered in 1827 to link a Maryland port with the Ohio River valley.",
+          "yawp": "8.II",
+          "alts": [
+            "B&O Railroad",
+            "B and O Railroad"
+          ]
+        },
+        {
+          "id": "telegraph-1844",
+          "term": "Telegraph (1844)",
+          "def": "Electric communication system; Samuel Morse’s 1844 line between Washington and Baltimore began a communications revolution.",
+          "yawp": "8.II",
+          "alts": [
+            "Morse telegraph",
+            "Samuel Morse"
+          ]
+        },
+        {
+          "id": "cyrus-mccormick",
+          "term": "Cyrus McCormick",
+          "def": "Inventor of the mechanical reaper, which let Midwestern farmers harvest far more wheat for market.",
+          "yawp": "8.II",
+          "alts": [
+            "McCormick"
+          ]
+        },
+        {
+          "id": "john-deere",
+          "term": "John Deere",
+          "def": "Illinois blacksmith who developed a steel plow in 1837 that could cut through the tough prairie soil of the Midwest.",
+          "yawp": "8.II",
+          "alts": [
+            "Deere"
+          ]
+        },
+        {
+          "id": "interchangeable-parts",
+          "term": "Interchangeable parts",
+          "def": "Manufacturing method, developed largely in federal armories and promoted by Eli Whitney, of making identical components so goods could be mass-produced and easily repaired.",
+          "added": true
+        },
+        {
+          "id": "samuel-slater",
+          "term": "Samuel Slater",
+          "def": "British immigrant (1789) who reproduced British textile machines from memory and built America’s first successful water-powered cotton-spinning mill, in Pawtucket, Rhode Island.",
+          "yawp": "8.IV",
+          "alts": [
+            "Slater"
+          ]
+        },
+        {
+          "id": "putting-out-system",
+          "term": "Putting-out system",
+          "def": "Early system in which merchants supplied materials to workers who made goods at home for piece rates; factories replaced it.",
+          "yawp": "8.IV"
+        },
+        {
+          "id": "francis-cabot-lowell",
+          "term": "Francis Cabot Lowell",
+          "def": "Boston merchant who memorized British power-loom designs and, with mechanic Paul Moody, re-created the loom (1813), launching the first American mill to turn raw cotton into finished cloth.",
+          "yawp": "8.IV"
+        },
+        {
+          "id": "lowell-system-waltham-lowell-system",
+          "term": "Lowell system (Waltham–Lowell system)",
+          "def": "Factory system, run by large textile corporations, that put every step of cloth-making under one roof in planned Massachusetts mill towns, staffed by young farm women living in supervised company boardinghouses.",
+          "yawp": "8.IV, 8.III",
+          "alts": [
+            "Waltham system"
+          ]
+        },
+        {
+          "id": "corporations-and-limited-liability",
+          "term": "Corporations and limited liability",
+          "def": "Business form, chartered by a state, that let many investors pool capital while risking only what they put in; Jefferson attacked “monied corporations” in 1816.",
+          "yawp": "8.II",
+          "alts": [
+            "corporations",
+            "limited liability",
+            "business corporation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labor",
+      "group": "society",
+      "title": "Workers & Labor",
+      "years": "1806–1842",
+      "blurb": "Wage work, the Lowell mill girls, early unions and the fight for a shorter day.",
+      "cards": [
+        {
+          "id": "wage-labor",
+          "term": "Wage labor",
+          "def": "Working for cash wages paid by an employer, which replaced bound labor, apprenticeship and household production for many Americans during the market revolution.",
+          "yawp": "8.I, 8.IV",
+          "alts": [
+            "cash economy"
+          ]
+        },
+        {
+          "id": "free-labor-ideology",
+          "term": "Free labor ideology",
+          "def": "Northern belief that wage work was freedom and a stepping stone to owning property and independence, defined against slavery in the South.",
+          "yawp": "8.IV",
+          "alts": [
+            "free labor"
+          ]
+        },
+        {
+          "id": "mill-girls-lowell-girls",
+          "term": "“Mill girls” (Lowell girls)",
+          "def": "Young unmarried women from New England farms who worked in textile mills and lived in supervised company boardinghouses.",
+          "yawp": "8.IV, 8.VI",
+          "alts": [
+            "Lowell mill girls"
+          ]
+        },
+        {
+          "id": "lowell-strikes-1834-1836",
+          "term": "Lowell strikes (1834, 1836)",
+          "def": "Walkouts, called “turnouts,” by women mill workers protesting wage cuts and higher boardinghouse charges.",
+          "yawp": "8.VI",
+          "alts": [
+            "Lowell turnouts",
+            "turnouts"
+          ]
+        },
+        {
+          "id": "sarah-bagley",
+          "term": "Sarah Bagley",
+          "def": "Mill worker who led the Lowell Female Labor Reform Association, petitioned for a ten-hour day and wrote for the labor newspaper Voice of Industry.",
+          "yawp": "8.VI",
+          "alts": [
+            "Bagley"
+          ]
+        },
+        {
+          "id": "ten-hour-movement",
+          "term": "Ten-Hour Movement",
+          "def": "Campaign by workers in the 1830s and 1840s to limit the workday to ten hours.",
+          "yawp": "8.VI",
+          "alts": [
+            "ten-hour day"
+          ]
+        },
+        {
+          "id": "van-burens-ten-hour-order-1840",
+          "term": "Van Buren’s ten-hour order (1840)",
+          "def": "1840 presidential executive order that limited laborers on federal public works to a ten-hour day.",
+          "yawp": "8.VI"
+        },
+        {
+          "id": "massachusetts-child-labor-law-1842",
+          "term": "Massachusetts child labor law (1842)",
+          "def": "State law limiting children under 12 to ten hours of work a day in factories.",
+          "yawp": "8.VI"
+        },
+        {
+          "id": "seth-luther",
+          "term": "Seth Luther",
+          "def": "Labor activist who attacked factory owners for exploiting workers, especially children, and campaigned for a ten-hour day.",
+          "yawp": "8.IV"
+        },
+        {
+          "id": "federal-society-of-journeymen-cordwainers",
+          "term": "Federal Society of Journeymen Cordwainers",
+          "def": "Philadelphia shoemakers’ union, one of the first American unions; its leaders were convicted of criminal conspiracy for striking in 1806.",
+          "yawp": "8.VI",
+          "alts": [
+            "Cordwainers"
+          ]
+        },
+        {
+          "id": "closed-shop",
+          "term": "Closed shop",
+          "def": "Workplace where the employer agrees to hire only union members, a goal of early unions.",
+          "yawp": "8.VI"
+        },
+        {
+          "id": "commonwealth-v-hunt-1842",
+          "term": "Commonwealth v. Hunt (1842)",
+          "def": "Massachusetts Supreme Court ruling that labor unions were legal and not criminal conspiracies.",
+          "yawp": "8.VI"
+        }
+      ]
+    },
+    {
+      "id": "immigration",
+      "group": "society",
+      "title": "Immigration & Nativism",
+      "years": "1820–1860",
+      "blurb": "Irish and German newcomers and the backlash against them.",
+      "cards": [
+        {
+          "id": "antebellum-immigration-1820-1860",
+          "term": "Antebellum immigration (1820–1860)",
+          "def": "Arrival of over 5 million immigrants between 1820 and 1860, mostly Irish and German, with Jewish immigrants among them, who filled cities, factories and western farms.",
+          "yawp": "8.VI, 10.I",
+          "alts": [
+            "immigration"
+          ]
+        },
+        {
+          "id": "irish-potato-famine",
+          "term": "Irish Potato Famine",
+          "def": "Crop disaster in Ireland (1845–1852) that killed about a million people and helped drive about 1.7 million Irish, mostly poor Catholics, to the United States between 1840 and 1860.",
+          "yawp": "8.VI",
+          "alts": [
+            "Irish Famine",
+            "Great Famine"
+          ]
+        },
+        {
+          "id": "german-immigrants",
+          "term": "German immigrants",
+          "def": "Immigrants, many of them skilled families, who settled in the Midwest, especially the “German Triangle” of St. Louis, Cincinnati and Milwaukee.",
+          "yawp": "8.VI",
+          "alts": [
+            "German immigration",
+            "German Triangle"
+          ]
+        },
+        {
+          "id": "chain-migration",
+          "term": "Chain migration",
+          "def": "Pattern in which immigrants send wages and letters home that bring relatives and neighbors to join them.",
+          "yawp": "8.VI"
+        },
+        {
+          "id": "revolutions-of-1848",
+          "term": "Revolutions of 1848",
+          "def": "Failed democratic uprisings across Europe that pushed many Germans, including political refugees, to emigrate to the United States.",
+          "yawp": "8.VI"
+        },
+        {
+          "id": "nativism",
+          "term": "Nativism",
+          "def": "Hostility of native-born Protestants toward immigrants, especially Catholics; Samuel F. B. Morse warned of a Catholic plot against free institutions, and Lyman Beecher of “floods of pauper emigrants.”",
+          "yawp": "7.VII, 8.VI, 9.X",
+          "alts": [
+            "nativists"
+          ]
+        },
+        {
+          "id": "ursuline-convent-burning-1834",
+          "term": "Ursuline Convent burning (1834)",
+          "def": "Attack in which a Protestant mob burned a Catholic convent and school in Charlestown, outside Boston.",
+          "yawp": "9.X",
+          "alts": [
+            "Ursuline Convent riot",
+            "Charlestown convent burning"
+          ]
+        },
+        {
+          "id": "know-nothings-american-party",
+          "term": "Know-Nothings (American Party)",
+          "def": "Nativist political party of the 1850s that sought to limit immigrants’ political power and Catholic influence.",
+          "yawp": "8.VI, 9.X",
+          "alts": [
+            "Know-Nothing Party"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "group": "society",
+      "title": "Class, Family & Gender",
+      "years": "1800–1850",
+      "blurb": "The new middle class and its ideals for home, marriage and women’s roles.",
+      "cards": [
+        {
+          "id": "new-middle-class",
+          "term": "New middle class",
+          "def": "Growing class of clerks, managers, merchants and professionals created by the market revolution, who marked their status through “respectable” behavior, self-discipline and home life.",
+          "yawp": "8.VII, 9.XI",
+          "alts": [
+            "middle class"
+          ]
+        },
+        {
+          "id": "separate-spheres",
+          "term": "Separate spheres",
+          "def": "Middle-class ideal that assigned men to the public world of work and politics and women to the private world of home and family.",
+          "yawp": "8.V"
+        },
+        {
+          "id": "cult-of-domesticity-true-womanhood",
+          "term": "Cult of domesticity (“true womanhood”)",
+          "def": "Ideal that a respectable woman was pious, pure, submissive and devoted to home and family, which confined middle-class women to the home.",
+          "yawp": "10.VI",
+          "alts": [
+            "cult of true womanhood"
+          ]
+        },
+        {
+          "id": "coverture",
+          "term": "Coverture",
+          "def": "Legal principle that a married woman’s identity merged with her husband’s, giving him control of her property and earnings.",
+          "yawp": "8.V, 10.VI"
+        },
+        {
+          "id": "companionate-marriage",
+          "term": "Companionate marriage",
+          "def": "Ideal of marriage based on love, affection and compatibility rather than economic arrangement.",
+          "yawp": "8.V"
+        },
+        {
+          "id": "republican-motherhood",
+          "term": "Republican Motherhood",
+          "def": "Ideal that women served the nation by raising virtuous, liberty-loving sons, which justified educating women while keeping them out of politics.",
+          "yawp": "7.III"
+        }
+      ]
+    },
+    {
+      "id": "awakening",
+      "group": "reform",
+      "title": "Second Great Awakening",
+      "years": "1800–1840s",
+      "blurb": "The revivals that remade American religion and set reformers in motion.",
+      "cards": [
+        {
+          "id": "second-great-awakening",
+          "term": "Second Great Awakening",
+          "def": "Wave of Protestant revivals (about 1800–1840s) that pushed back against Enlightenment rationalism and Calvinist predestination, stressed each person’s choice to be saved and fueled reform movements.",
+          "yawp": "10.I–II, 10.I"
+        },
+        {
+          "id": "camp-meetings",
+          "term": "Camp meetings",
+          "def": "Large outdoor revivals lasting several days, full of emotional preaching and mass conversions, especially on the frontier.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "cane-ridge-revival-1801",
+          "term": "Cane Ridge Revival (1801)",
+          "def": "Huge August 1801 camp meeting in Kentucky, drawing many thousands, that helped launch the frontier revivals.",
+          "yawp": "10.II",
+          "alts": [
+            "Cane Ridge"
+          ]
+        },
+        {
+          "id": "methodists-baptists-and-presbyterians",
+          "term": "Methodists, Baptists and Presbyterians",
+          "def": "Evangelical Protestant denominations that led the revivals and dominated Southern religion; one of them, spread by circuit riders, became the nation’s largest by 1850.",
+          "yawp": "10.II, 11.VI",
+          "alts": [
+            "evangelical denominations"
+          ]
+        },
+        {
+          "id": "circuit-riders",
+          "term": "Circuit riders",
+          "def": "Traveling Methodist preachers who carried the revivals to scattered frontier settlements.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "predestination-calvinism",
+          "term": "Predestination (Calvinism)",
+          "def": "Older Puritan belief that God has already chosen who will be saved, which revivalists rejected as too pessimistic.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "lyman-beecher",
+          "term": "Lyman Beecher",
+          "def": "Influential Congregationalist minister who softened Calvinism, crusaded for temperance and warned against Catholic immigrants.",
+          "yawp": "10.II, 10.IV",
+          "alts": [
+            "Beecher"
+          ]
+        },
+        {
+          "id": "charles-grandison-finney",
+          "term": "Charles Grandison Finney",
+          "def": "Leading revivalist whose emotional “new measures” won thousands of converts in upstate New York; he taught that converts should work to rid society of sin.",
+          "yawp": "10.II, 10.IV",
+          "alts": [
+            "Charles Finney",
+            "Finney"
+          ]
+        },
+        {
+          "id": "burned-over-district",
+          "term": "Burned-Over District",
+          "def": "Region of western and central New York swept by so many revivals that it seemed no one was left to convert; Finney coined the name.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "perfectionism",
+          "term": "Perfectionism",
+          "def": "Belief, preached by Finney, that converted Christians could live entirely free of sin and should work to free society from sin too.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "postmillennialism",
+          "term": "Postmillennialism",
+          "def": "Belief that Christ will return after a thousand years of peace and righteousness, so Christians must improve the world first; a powerful motive for reform.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "disinterested-benevolence",
+          "term": "Disinterested benevolence",
+          "def": "Ideal of giving up self-interest to serve others, which pushed converts into reform work.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "spiritual-egalitarianism",
+          "term": "Spiritual egalitarianism",
+          "def": "Idea that all souls are equal before God, which let some women and Black Americans preach by claiming a personal “call to preach” instead of formal training.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "restoration-movement-campbell-and-stone",
+          "term": "Restoration Movement (Campbell and Stone)",
+          "def": "Movement led by Alexander Campbell and Barton Stone to restore simple New Testament Christianity; it formed the Disciples of Christ.",
+          "yawp": "10.II",
+          "alts": [
+            "Restorationism",
+            "Disciples of Christ"
+          ]
+        },
+        {
+          "id": "seventh-day-adventists",
+          "term": "Seventh-day Adventists",
+          "def": "Denomination born from the revivals that grew out of William Miller’s movement, which predicted Christ’s return in 1843–1844.",
+          "yawp": "10.II",
+          "alts": [
+            "Adventists",
+            "Millerites",
+            "Seventh-day Adventist Church"
+          ]
+        },
+        {
+          "id": "joseph-smith",
+          "term": "Joseph Smith",
+          "def": "Founder of the Church of Jesus Christ of Latter-day Saints, who published the Book of Mormon in 1830 and was killed by a mob in Illinois in 1844.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "mormons-latter-day-saints",
+          "term": "Mormons (Latter-day Saints)",
+          "def": "Religious group founded in 1830 and driven from Missouri and from Nauvoo, Illinois; under Brigham Young they settled by the Great Salt Lake and in 1852 publicly acknowledged polygamy.",
+          "yawp": "10.II",
+          "alts": [
+            "Mormon Church",
+            "Mormonism"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reform",
+      "group": "reform",
+      "title": "Reform Movements",
+      "years": "1815–1848",
+      "blurb": "Temperance, prisons and asylums, schools, missions and utopian communities.",
+      "cards": [
+        {
+          "id": "benevolent-empire",
+          "term": "Benevolent Empire",
+          "def": "Network of evangelical reform societies (Bible, tract, missionary, temperance and moral reform), many led by middle-class women, that took on social problems and sought to Christianize society.",
+          "yawp": "10.IV, 10.II"
+        },
+        {
+          "id": "temperance-movement",
+          "term": "Temperance movement",
+          "def": "Largest antebellum reform movement, which urged Americans to drink less or give up alcohol entirely; many Irish and German immigrants resented it.",
+          "yawp": "10.III–IV, 10.IV",
+          "alts": [
+            "temperance"
+          ]
+        },
+        {
+          "id": "american-temperance-society-1826",
+          "term": "American Temperance Society (1826)",
+          "def": "Organization founded in 1826 that spread the temperance pledge nationwide through thousands of local societies.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "cold-water-army",
+          "term": "Cold Water Army",
+          "def": "Temperance group of children who pledged never to drink, marched in parades and canvassed towns.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "sabbatarianism",
+          "term": "Sabbatarianism",
+          "def": "Movement to keep Sunday holy by stopping Sunday work, mail delivery and amusements.",
+          "yawp": "10.IV",
+          "alts": [
+            "Sabbatarians"
+          ]
+        },
+        {
+          "id": "moral-reform-societies",
+          "term": "Moral reform societies",
+          "def": "Groups, often led by women, that worked to end prostitution.",
+          "yawp": "10.IV",
+          "alts": [
+            "moral reform"
+          ]
+        },
+        {
+          "id": "penitentiary-movement",
+          "term": "Penitentiary movement",
+          "def": "Reform that built prisons, like Pennsylvania’s Eastern State (1829), meant to reform inmates through solitude, labor and constant surveillance.",
+          "yawp": "10.IV",
+          "alts": [
+            "prison reform",
+            "Eastern State Penitentiary"
+          ]
+        },
+        {
+          "id": "asylum-movement",
+          "term": "Asylum movement",
+          "def": "Campaign to build institutions such as mental hospitals, orphanages and dispensaries; Dorothea Dix led the 1840s push for humane state care of the mentally ill.",
+          "yawp": "10.IV",
+          "alts": [
+            "asylum reform",
+            "Dorothea Dix"
+          ]
+        },
+        {
+          "id": "horace-mann",
+          "term": "Horace Mann",
+          "def": "Massachusetts education reformer who led the common school movement for free, tax-supported public schools.",
+          "alts": [
+            "common school movement"
+          ],
+          "added": true
+        },
+        {
+          "id": "american-bible-society-and-american-tract-society",
+          "term": "American Bible Society and American Tract Society",
+          "def": "Reform societies that used new steam presses and cheaper printing to distribute millions of Bibles and religious pamphlets.",
+          "yawp": "10.IV, 10.III",
+          "alts": [
+            "American Bible Society",
+            "American Tract Society"
+          ]
+        },
+        {
+          "id": "american-home-missionary-society",
+          "term": "American Home Missionary Society",
+          "def": "Society that paid ministers and supported congregations in frontier settlements.",
+          "yawp": "10.IV"
+        },
+        {
+          "id": "shakers",
+          "term": "Shakers",
+          "def": "Celibate religious communities in New England and the Midwest that held property in common and were known for ecstatic worship and simple craftsmanship.",
+          "yawp": "10.II"
+        },
+        {
+          "id": "oneida-community",
+          "term": "Oneida Community",
+          "def": "Utopian community in New York founded by John Humphrey Noyes that practiced shared property and “complex marriage.”",
+          "yawp": "10.II",
+          "alts": [
+            "Oneida"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "abolition",
+      "group": "reform",
+      "title": "Abolitionism",
+      "years": "1816–1848",
+      "blurb": "From colonization to immediatism: abolitionists, their tactics and the violent backlash.",
+      "cards": [
+        {
+          "id": "quakers",
+          "term": "Quakers",
+          "def": "Religious group (the Society of Friends) that was the first in America to question and condemn slavery, beginning in the late 1600s.",
+          "yawp": "10.III",
+          "alts": [
+            "Society of Friends"
+          ]
+        },
+        {
+          "id": "american-colonization-society",
+          "term": "American Colonization Society",
+          "def": "Organization founded in 1816 to send free Black Americans to Africa; it founded Liberia, but most free Black Americans rejected its plan.",
+          "yawp": "7.II, 10.V",
+          "alts": [
+            "colonization movement",
+            "colonization"
+          ]
+        },
+        {
+          "id": "immediatism",
+          "term": "Immediatism",
+          "def": "Demand to end slavery at once and without paying enslavers, popularized by William Lloyd Garrison in the 1830s.",
+          "yawp": "10.III, 10.V",
+          "alts": [
+            "immediate emancipation"
+          ]
+        },
+        {
+          "id": "moral-suasion",
+          "term": "Moral suasion",
+          "def": "Abolitionist strategy of persuading Americans, enslavers included, that slavery was a sin, through speeches, newspapers and petitions rather than politics or force.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "william-lloyd-garrison",
+          "term": "William Lloyd Garrison",
+          "def": "Radical abolitionist who launched The Liberator in 1831, demanded immediate emancipation and helped found the American Anti-Slavery Society.",
+          "yawp": "10.V",
+          "alts": [
+            "Garrison"
+          ]
+        },
+        {
+          "id": "american-anti-slavery-society-1833",
+          "term": "American Anti-Slavery Society (1833)",
+          "def": "National abolitionist organization founded in 1833 that demanded immediate emancipation; it split in 1840 over women’s roles.",
+          "yawp": "10.V",
+          "alts": [
+            "AASS"
+          ]
+        },
+        {
+          "id": "arthur-and-lewis-tappan",
+          "term": "Arthur and Lewis Tappan",
+          "def": "Wealthy New York merchant brothers who funded evangelical abolitionism; they broke with Garrison in 1840 over women’s roles and formed the American and Foreign Anti-Slavery Society.",
+          "yawp": "10.V",
+          "alts": [
+            "Tappan brothers",
+            "Tappans"
+          ]
+        },
+        {
+          "id": "theodore-dwight-weld",
+          "term": "Theodore Dwight Weld",
+          "def": "Evangelical abolitionist who trained antislavery agents and compiled American Slavery As It Is (1839).",
+          "yawp": "10.III, 10.V",
+          "alts": [
+            "Theodore Weld"
+          ]
+        },
+        {
+          "id": "john-greenleaf-whittier",
+          "term": "John Greenleaf Whittier",
+          "def": "Quaker poet whose verse condemned slavery.",
+          "yawp": "10.V",
+          "alts": [
+            "Whittier"
+          ]
+        },
+        {
+          "id": "wendell-phillips",
+          "term": "Wendell Phillips",
+          "def": "Boston abolitionist orator who exposed and denounced Northern complicity in slavery.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "frederick-douglass",
+          "term": "Frederick Douglass",
+          "def": "Formerly enslaved abolitionist and orator who published his Narrative in 1845, won British support on a speaking tour and later founded the North Star newspaper.",
+          "yawp": "10.III, 10.V, 10.VII",
+          "alts": [
+            "Douglass"
+          ]
+        },
+        {
+          "id": "sojourner-truth",
+          "term": "Sojourner Truth",
+          "def": "Formerly enslaved woman from New York who became a powerful speaker for abolition and women’s rights.",
+          "yawp": "10.VI"
+        },
+        {
+          "id": "david-walkers-appeal-1829",
+          "term": "David Walker’s Appeal (1829)",
+          "def": "Pamphlet by a Black Bostonian urging enslaved people to resist slavery, by force if necessary.",
+          "yawp": "7.II, 10.V",
+          "alts": [
+            "Walker’s Appeal",
+            "David Walker"
+          ]
+        },
+        {
+          "id": "james-forten",
+          "term": "James Forten",
+          "def": "Black Philadelphia sailmaker and Revolutionary War veteran, denied full citizenship, whose antislavery writing (Letters from a Man of Colour, 1813) changed Garrison’s views.",
+          "yawp": "9.XI, 10.V",
+          "alts": [
+            "Forten"
+          ]
+        },
+        {
+          "id": "slave-narratives",
+          "term": "Slave narratives",
+          "def": "Autobiographies by people who escaped slavery, such as Frederick Douglass and Harriet Jacobs, that exposed slavery’s cruelty and moved white Northern readers.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "postal-campaign-1835",
+          "term": "Postal campaign (1835)",
+          "def": "Abolitionists’ mass mailing of antislavery pamphlets to Southern enslavers, which white Southerners seized and burned.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "gag-rule-1836-1844",
+          "term": "Gag rule (1836–1844)",
+          "def": "House rule that automatically tabled the flood of antislavery petitions sent to Congress, without debate; John Quincy Adams fought it until its repeal in 1844.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "elijah-lovejoy",
+          "term": "Elijah Lovejoy",
+          "def": "Abolitionist newspaper editor killed by a proslavery mob in Alton, Illinois, in 1837.",
+          "yawp": "9.XI, 10.V",
+          "alts": [
+            "Lovejoy"
+          ]
+        },
+        {
+          "id": "pennsylvania-hall-1838",
+          "term": "Pennsylvania Hall (1838)",
+          "def": "Philadelphia abolitionist meeting hall that a mob burned days after it opened, during the Anti-Slavery Convention of American Women.",
+          "yawp": "10.V, 9.XI"
+        },
+        {
+          "id": "liberty-party",
+          "term": "Liberty Party",
+          "def": "First antislavery political party, founded in 1839–1840, which ran James G. Birney for president in 1840 and 1844.",
+          "yawp": "10.V"
+        },
+        {
+          "id": "abby-kelley",
+          "term": "Abby Kelley",
+          "def": "Abolitionist whose 1840 election to an American Anti-Slavery Society committee split the movement over women’s roles.",
+          "yawp": "10.V",
+          "alts": [
+            "Abby Kelly"
+          ]
+        },
+        {
+          "id": "female-antislavery-societies",
+          "term": "Female antislavery societies",
+          "def": "Women’s abolitionist groups that raised money, gathered petitions and boycotted sugar and other goods made by enslaved labor (the free-produce movement).",
+          "yawp": "9.XI",
+          "alts": [
+            "Female Anti-Slavery Society",
+            "free-produce movement"
+          ]
+        },
+        {
+          "id": "amistad-case-1841",
+          "term": "Amistad case (1841)",
+          "def": "1841 Supreme Court case that freed Africans who had revolted aboard a Spanish slave ship in 1839; former president John Quincy Adams argued their case.",
+          "alts": [
+            "Amistad",
+            "United States v. The Amistad"
+          ],
+          "added": true
+        }
+      ]
+    },
+    {
+      "id": "womensrights",
+      "group": "reform",
+      "title": "Women’s Rights",
+      "years": "1821–1848",
+      "blurb": "Education, the Grimké sisters, Seneca Falls and the first demands for the vote.",
+      "cards": [
+        {
+          "id": "female-seminaries",
+          "term": "Female seminaries",
+          "def": "Schools that expanded higher education for women and trained them as teachers, such as Emma Willard’s in Troy, New York (1821), Catharine Beecher’s in Hartford and Mary Lyon’s Mount Holyoke (1837).",
+          "yawp": "8.V, 10.VI",
+          "alts": [
+            "female academies"
+          ]
+        },
+        {
+          "id": "grimke-sisters",
+          "term": "Grimké sisters",
+          "def": "Angelina and Sarah, daughters of a Charleston slaveholding family, who became abolitionist lecturers and defended women’s right to speak to mixed audiences of men and women.",
+          "yawp": "10.V–VI",
+          "alts": [
+            "Angelina and Sarah Grimke",
+            "Grimkes"
+          ]
+        },
+        {
+          "id": "world-anti-slavery-convention-1840",
+          "term": "World Anti-Slavery Convention (1840)",
+          "def": "London meeting that refused to seat American women delegates, prompting Lucretia Mott and Elizabeth Cady Stanton to plan a women’s rights convention.",
+          "yawp": "10.III, 10.VI"
+        },
+        {
+          "id": "seneca-falls-convention-1848",
+          "term": "Seneca Falls Convention (1848)",
+          "def": "First women’s rights convention, held in upstate New York in July 1848 and organized by Elizabeth Cady Stanton and Lucretia Mott.",
+          "yawp": "10.VI",
+          "alts": [
+            "Seneca Falls"
+          ]
+        },
+        {
+          "id": "declaration-of-sentiments-1848",
+          "term": "Declaration of Sentiments (1848)",
+          "def": "Document from the first women’s rights convention, modeled on the Declaration of Independence (“all men and women are created equal”), that listed grievances and demanded rights including the vote; 68 women and 32 men signed it.",
+          "yawp": "10.VI"
+        },
+        {
+          "id": "elizabeth-cady-stanton",
+          "term": "Elizabeth Cady Stanton",
+          "def": "Women’s rights leader who co-organized the 1848 Seneca Falls Convention and wrote its Declaration of Sentiments, including its demand for the vote.",
+          "yawp": "10.VI",
+          "alts": [
+            "Stanton"
+          ]
+        },
+        {
+          "id": "lucretia-mott",
+          "term": "Lucretia Mott",
+          "def": "Quaker minister, abolitionist and women’s rights leader who co-organized the Seneca Falls Convention.",
+          "yawp": "10.VI",
+          "alts": [
+            "Mott"
+          ]
+        },
+        {
+          "id": "susan-b-anthony",
+          "term": "Susan B. Anthony",
+          "def": "Reformer who came to women’s rights through temperance and antislavery work and became a leading suffragist.",
+          "yawp": "10.VI",
+          "alts": [
+            "Susan Anthony"
+          ]
+        },
+        {
+          "id": "married-womens-property-laws",
+          "term": "Married women’s property laws",
+          "def": "State laws, such as New York’s of 1848, that let married women own and control property, slowly weakening coverture; few states passed them before the Civil War.",
+          "yawp": "10.VI",
+          "alts": [
+            "married women’s property acts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "culture",
+      "group": "reform",
+      "title": "American Culture",
+      "years": "1820s–1840s",
+      "blurb": "Transcendentalists, utopians, lyceums and the era’s popular culture.",
+      "cards": [
+        {
+          "id": "unitarianism",
+          "term": "Unitarianism",
+          "def": "Liberal Protestant faith centered in Boston and at Harvard that rejected the Trinity and Christ’s divinity and stressed reason; many transcendentalists began in it.",
+          "yawp": "10.II",
+          "alts": [
+            "Unitarians"
+          ]
+        },
+        {
+          "id": "transcendentalism",
+          "term": "Transcendentalism",
+          "def": "New England movement, launched in 1836 by a club of Unitarian ministers and writers and inspired by British Romanticism and German idealism, that had no creed and held that truth comes through intuition and God is found in nature.",
+          "yawp": "10.II",
+          "alts": [
+            "transcendentalists"
+          ]
+        },
+        {
+          "id": "ralph-waldo-emerson",
+          "term": "Ralph Waldo Emerson",
+          "def": "Transcendentalist writer who taught that God is revealed in nature; his “The American Scholar” (1837) called for intellectual independence from Europe and “Self-Reliance” (1841) urged trust in the individual soul.",
+          "yawp": "10.II",
+          "alts": [
+            "Emerson"
+          ]
+        },
+        {
+          "id": "henry-david-thoreau",
+          "term": "Henry David Thoreau",
+          "def": "Transcendentalist who lived simply at Walden Pond and, in “Resistance to Civil Government” (1849, later called “Civil Disobedience”), argued that individuals should refuse to obey unjust laws.",
+          "yawp": "10.II",
+          "alts": [
+            "Thoreau"
+          ]
+        },
+        {
+          "id": "margaret-fuller",
+          "term": "Margaret Fuller",
+          "def": "Transcendentalist editor and critic whose Woman in the Nineteenth Century (1845) was an early feminist work.",
+          "yawp": "10.II",
+          "alts": [
+            "Fuller"
+          ]
+        },
+        {
+          "id": "brook-farm",
+          "term": "Brook Farm",
+          "def": "Utopian community near Boston founded in 1841 by George Ripley and other transcendentalists; it later adopted Charles Fourier’s plan for a society built on cooperation (Fourierism).",
+          "yawp": "10.II"
+        },
+        {
+          "id": "lyceum-movement",
+          "term": "Lyceum movement",
+          "def": "Network of public lecture halls where traveling speakers, including abolitionists, educated adult audiences.",
+          "yawp": "10.V",
+          "alts": [
+            "lyceum",
+            "lyceums"
+          ]
+        },
+        {
+          "id": "hudson-river-school",
+          "term": "Hudson River School",
+          "def": "Group of landscape painters, led by Thomas Cole, whose dramatic scenes celebrated the American wilderness.",
+          "added": true
+        },
+        {
+          "id": "blackface-minstrelsy",
+          "term": "Blackface minstrelsy",
+          "def": "Popular stage entertainment in which white performers darkened their faces with burnt cork, as Thomas D. Rice did in his “Jim Crow” act, spreading racist caricatures of Black Americans.",
+          "yawp": "9.XI",
+          "alts": [
+            "minstrel shows",
+            "minstrelsy"
+          ]
+        },
+        {
+          "id": "bobalition-broadsides",
+          "term": "“Bobalition” broadsides",
+          "def": "Printed handbills in 1810s Boston that mocked Black abolitionists and their celebrations.",
+          "yawp": "7.II",
+          "alts": [
+            "Bobalition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cottonsouth",
+      "group": "slavery",
+      "title": "Cotton & the Slave South",
+      "years": "1793–1860",
+      "blurb": "How cotton and the domestic slave trade built the Deep South, and how white Southerners defended slavery.",
+      "cards": [
+        {
+          "id": "cotton-gin-1793",
+          "term": "Cotton gin (1793)",
+          "def": "Eli Whitney’s machine for separating seeds from short-staple cotton, which made inland cotton profitable and spread slavery across the Deep South.",
+          "yawp": "8.III, 11.II",
+          "alts": [
+            "Eli Whitney"
+          ]
+        },
+        {
+          "id": "king-cotton-cotton-kingdom",
+          "term": "“King Cotton” (Cotton Kingdom)",
+          "def": "Cotton’s dominance of the Southern economy: exports soared from 150,000 bales in 1815 to 4.5 million in 1859, shipped to New York, Liverpool and Manchester, tying Northern and British industry to slavery.",
+          "yawp": "11.III, 11.I, 8.III",
+          "alts": [
+            "Cotton Revolution"
+          ]
+        },
+        {
+          "id": "cotton-belt-black-belt",
+          "term": "Cotton Belt (Black Belt)",
+          "def": "Band of the Deep South, from South Carolina and Georgia west to Louisiana, named for its dark soil and large enslaved population; land taken through Indian removal set off a speculative “mania” there.",
+          "yawp": "11.II–III, 11.II"
+        },
+        {
+          "id": "short-staple-cotton",
+          "term": "Short-staple cotton",
+          "def": "Hardy cotton that grew inland but was hard to clean until the gin; prized long-staple (Sea Island) cotton grew only along the coast.",
+          "yawp": "11.II",
+          "alts": [
+            "upland cotton"
+          ]
+        },
+        {
+          "id": "petit-gulf-cotton-1833",
+          "term": "Petit Gulf cotton (1833)",
+          "def": "Hybrid cotton bred in Mississippi by Rush Nutt that was easier to pick and spread across the Cotton Belt.",
+          "yawp": "11.II"
+        },
+        {
+          "id": "end-of-the-atlantic-slave-trade-1808",
+          "term": "End of the Atlantic slave trade (1808)",
+          "def": "Federal ban on importing enslaved people, effective 1808; the domestic slave trade grew to take its place.",
+          "yawp": "8.III, 11.III",
+          "alts": [
+            "end of the international slave trade",
+            "ban on the slave trade",
+            "Act Prohibiting Importation of Slaves"
+          ]
+        },
+        {
+          "id": "domestic-slave-trade",
+          "term": "Domestic slave trade",
+          "def": "Interregional trade that forcibly moved about one million enslaved people from the Upper South, which sold them, to the cotton states of the Lower South, which bought them (1790–1860).",
+          "yawp": "8.III, 11.III",
+          "alts": [
+            "interregional slave trade",
+            "internal slave trade"
+          ]
+        },
+        {
+          "id": "sold-down-the-river",
+          "term": "“Sold down the river”",
+          "def": "Phrase for selling an enslaved person from the Upper South to the Deep South’s cotton and sugar plantations, a dreaded sale that tore families apart.",
+          "yawp": "11.V",
+          "alts": [
+            "downriver"
+          ]
+        },
+        {
+          "id": "new-orleans-slave-market",
+          "term": "New Orleans slave market",
+          "def": "The nation’s largest slave market, centered in places like the St. Louis Exchange, where traders sorted people into price categories such as “prime field hands.”",
+          "yawp": "11.III"
+        },
+        {
+          "id": "enslaved-people-as-collateral",
+          "term": "Enslaved people as collateral",
+          "def": "Use of enslaved people as security for loans from Northern and British banks, which financed the cotton boom and tied finance to slavery.",
+          "yawp": "8.III, 11.II"
+        },
+        {
+          "id": "proslavery-positive-good-argument",
+          "term": "Proslavery “positive good” argument",
+          "def": "Defense of slavery, voiced by John C. Calhoun in 1837, that claimed it was a beneficial system of order and duty rather than a necessary evil.",
+          "yawp": "11.III",
+          "alts": [
+            "positive good",
+            "proslavery ideology"
+          ]
+        },
+        {
+          "id": "peculiar-institution",
+          "term": "“Peculiar institution”",
+          "def": "White Southerners’ euphemism for slavery; Calhoun called it their “peculiar domestick institution,” and historians see protecting it as the real stake in nullification.",
+          "yawp": "9.V"
+        },
+        {
+          "id": "curse-of-ham",
+          "term": "Curse of Ham",
+          "def": "Distorted reading of a Bible story, in which Noah curses his grandson Canaan, used to claim that people of African descent were meant to be enslaved.",
+          "yawp": "11.VI"
+        },
+        {
+          "id": "de-bows-review",
+          "term": "De Bow’s Review",
+          "def": "Southern business journal, like the American Cotton Planter, that promoted the cotton economy and defended slavery.",
+          "yawp": "11.III",
+          "alts": [
+            "DeBow’s Review"
+          ]
+        },
+        {
+          "id": "plantation-mistress",
+          "term": "Plantation mistress",
+          "def": "White woman who ran a plantation household, kept from manual labor and held up as a model of purity, an ideal used to justify racial control.",
+          "yawp": "8.V, 11.VI",
+          "alts": [
+            "plantation mistresses"
+          ]
+        },
+        {
+          "id": "southern-honor-culture",
+          "term": "Southern honor culture",
+          "def": "Code of white Southern manhood built on reputation and enforced through violence, from elite duels (Jackson, Burr, Clay and Benton all dueled) to backcountry rough-and-tumble fights aimed at maiming.",
+          "yawp": "11.VI",
+          "alts": [
+            "Southern honor",
+            "honor culture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enslavedlife",
+      "group": "slavery",
+      "title": "Enslaved Life & Resistance",
+      "years": "1800–1855",
+      "blurb": "Family, faith and resistance, from planned revolts to written testimony.",
+      "cards": [
+        {
+          "id": "slave-religion",
+          "term": "Slave religion",
+          "def": "Christianity as practiced by enslaved people, often in secret, that blended African traditions and stressed deliverance, as in the story of Moses.",
+          "yawp": "11.VI",
+          "alts": [
+            "enslaved people’s Christianity"
+          ]
+        },
+        {
+          "id": "enslaved-kinship-networks",
+          "term": "Enslaved kinship networks",
+          "def": "Extended families and communities that helped enslaved people survive sale and separation; about two-thirds lived in nuclear households.",
+          "yawp": "11.V",
+          "alts": [
+            "kinship networks"
+          ]
+        },
+        {
+          "id": "anti-literacy-laws",
+          "term": "Anti-literacy laws",
+          "def": "Southern laws making it a crime to teach enslaved people to read or write, tightened after Nat Turner’s Rebellion along with harsher slave codes and white oversight of Black churches.",
+          "yawp": "11.VI"
+        },
+        {
+          "id": "gabriels-rebellion-1800",
+          "term": "Gabriel’s Rebellion (1800)",
+          "def": "Planned 1800 uprising of enslaved people, led by an enslaved blacksmith, to seize Richmond, Virginia; it was betrayed, the leaders were hanged and Virginia cracked down on free Black people.",
+          "yawp": "7.II",
+          "alts": [
+            "Gabriel’s Conspiracy",
+            "Gabriel Prosser"
+          ]
+        },
+        {
+          "id": "denmark-vesey",
+          "term": "Denmark Vesey",
+          "def": "Free Black carpenter in Charleston executed in 1822 for allegedly planning a large slave revolt; the scare made South Carolina’s white leaders hostile to any outside power over slavery, including federal power.",
+          "yawp": "9.V",
+          "alts": [
+            "Vesey"
+          ]
+        },
+        {
+          "id": "nat-turners-rebellion-1831",
+          "term": "Nat Turner’s Rebellion (1831)",
+          "def": "August 1831 uprising in Southampton County, Virginia, led by an enslaved preacher; about 57 white people were killed, and militias and mobs killed many Black people in retaliation.",
+          "yawp": "10.V, 11.VI",
+          "alts": [
+            "Nat Turner"
+          ]
+        },
+        {
+          "id": "harriet-jacobs",
+          "term": "Harriet Jacobs",
+          "def": "Formerly enslaved North Carolina woman whose Incidents in the Life of a Slave Girl told of resisting her enslaver’s sexual abuse.",
+          "yawp": "11.V",
+          "alts": [
+            "Jacobs"
+          ]
+        },
+        {
+          "id": "celia-1855",
+          "term": "Celia (1855)",
+          "def": "Enslaved Missouri woman hanged for killing the enslaver who had repeatedly raped her; the court denied that the law protected enslaved women.",
+          "yawp": "11.V"
+        },
+        {
+          "id": "william-wells-brown",
+          "term": "William Wells Brown",
+          "def": "Formerly enslaved writer and abolitionist who exposed the hypocrisy of Christian enslavers.",
+          "yawp": "11.VI"
+        }
+      ]
+    },
+    {
+      "id": "freeblack",
+      "group": "slavery",
+      "title": "Free Black Communities",
+      "years": "1780–1840",
+      "blurb": "Slavery’s slow end in the North, free Black institutions and the fight against racist ideas.",
+      "cards": [
+        {
+          "id": "gradual-emancipation",
+          "term": "Gradual emancipation",
+          "def": "Northern state laws, from Pennsylvania (1780) to New Jersey (1804), that ended slavery slowly, often binding freed children to work for their mothers’ enslavers into adulthood; about 3,500 people were still enslaved in the North in 1830.",
+          "yawp": "8.III, 10.V"
+        },
+        {
+          "id": "free-black-communities",
+          "term": "Free Black communities",
+          "def": "Communities of free Black Americans, mostly in Northern cities, who built churches, mutual aid societies and newspapers; the free Black population grew from under 60,000 (1790) to over 186,000 (1810).",
+          "yawp": "8.III"
+        },
+        {
+          "id": "african-methodist-episcopal-ame-church",
+          "term": "African Methodist Episcopal (AME) Church",
+          "def": "First independent Black Protestant denomination, founded by Richard Allen in Philadelphia in 1816.",
+          "alts": [
+            "AME Church"
+          ],
+          "added": true
+        },
+        {
+          "id": "prince-hall",
+          "term": "Prince Hall",
+          "def": "Boston leader who founded Black Freemasonry and petitioned for Black education and rights.",
+          "yawp": "9.X"
+        },
+        {
+          "id": "benjamin-banneker",
+          "term": "Benjamin Banneker",
+          "def": "Free Black mathematician and surveyor who in 1791 wrote to Jefferson challenging his claims of Black inferiority.",
+          "yawp": "7.II",
+          "alts": [
+            "Banneker"
+          ]
+        },
+        {
+          "id": "jeffersons-notes-on-the-state-of-virginia",
+          "term": "Jefferson’s Notes on the State of Virginia",
+          "def": "Thomas Jefferson’s book (1785) that claimed Black people were inferior and proposed emancipation only if paired with colonization.",
+          "yawp": "7.II, 11.III",
+          "alts": [
+            "Notes on the State of Virginia"
+          ]
+        },
+        {
+          "id": "scientific-racism",
+          "term": "Scientific racism",
+          "def": "Pseudoscientific theories that ranked human “races,” from Enlightenment classifications by Linnaeus and Blumenbach to polygenesis (the idea that races had separate origins), used to justify slavery.",
+          "yawp": "7.II",
+          "alts": [
+            "polygenesis",
+            "racial science"
+          ]
+        },
+        {
+          "id": "john-russwurm",
+          "term": "John Russwurm",
+          "def": "One of the first Black college graduates (Bowdoin, 1826), who praised Haiti in his commencement speech and co-founded Freedom’s Journal, the first Black-owned newspaper.",
+          "yawp": "7.II",
+          "alts": [
+            "Russwurm"
+          ]
+        },
+        {
+          "id": "the-colored-american",
+          "term": "The Colored American",
+          "def": "Early Black-owned New York newspaper (1837–1842) that campaigned for abolition and equal rights.",
+          "yawp": "7.II"
+        },
+        {
+          "id": "anticolonization",
+          "term": "Anticolonization",
+          "def": "Free Black Northerners’ rejection of plans to send them to Africa, insisting on freedom and citizenship in the United States, their native land.",
+          "yawp": "10.V",
+          "alts": [
+            "anti-colonization"
+          ]
+        },
+        {
+          "id": "free-people-of-color-in-the-south",
+          "term": "Free people of color in the South",
+          "def": "Black Southerners who were not enslaved, concentrated in cities like Charleston and New Orleans, who held a fragile middle status between the enslaved and white people.",
+          "yawp": "11.V",
+          "alts": [
+            "free people of color",
+            "free Black Southerners"
+          ]
+        }
+      ]
+    }
+  ]
+}

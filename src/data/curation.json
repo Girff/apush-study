@@ -1,0 +1,1035 @@
+{
+  "note": "Maps each card to the entries of apush-unit4-terms.json it covers. Cards with no sources were added for complete Unit 4 coverage.",
+  "cards": {
+    "election-of-1800": [
+      "4.2:Election of 1800"
+    ],
+    "revolution-of-1800": [
+      "4.2:\"Revolution of 1800\""
+    ],
+    "thomas-jefferson": [
+      "4.2:Thomas Jefferson",
+      "4.2:Jefferson's cuts"
+    ],
+    "democratic-republicans": [
+      "4.2:Democratic-Republicans"
+    ],
+    "federalists": [
+      "4.2:Federalists"
+    ],
+    "fisher-ames": [
+      "4.2:Fisher Ames"
+    ],
+    "louisiana-purchase-1803": [
+      "4.4:Louisiana Purchase (1803)",
+      "4.4:New Orleans"
+    ],
+    "napoleon-bonaparte": [
+      "4.4:Napoleon Bonaparte / Talleyrand"
+    ],
+    "robert-r-livingston": [
+      "4.4:Robert R. Livingston"
+    ],
+    "strict-vs-loose-construction": [
+      "4.4:Constitutionality of the Purchase"
+    ],
+    "haitian-revolution-1791-1804": [
+      "4.4:Haitian Revolution (1791–1804)",
+      "4.12:Haiti's inspiration"
+    ],
+    "lewis-and-clark-expedition-1804-1806": [],
+    "barbary-war-1801-1805": [],
+    "impressment": [
+      "4.4:Impressment"
+    ],
+    "chesapeake-leopard-affair-1807": [
+      "4.4:USS Chesapeake (1807)"
+    ],
+    "embargo-act-of-1807": [
+      "4.4:Embargo Act of 1807"
+    ],
+    "peaceable-coercion": [
+      "4.4:Peaceable coercion"
+    ],
+    "sally-hemings": [
+      "4.2:James Callender / Sally Hemings"
+    ],
+    "john-marshall": [],
+    "marbury-v-madison-1803": [],
+    "mcculloch-v-maryland-1819": [],
+    "dartmouth-college-v-woodward-1819": [
+      "4.5:Dartmouth College v. Woodward (1819)"
+    ],
+    "gibbons-v-ogden-1824": [],
+    "play-off-system": [
+      "4.4:Play-off System"
+    ],
+    "red-jacket": [
+      "4.4:Red Jacket"
+    ],
+    "western-confederacy": [
+      "4.4:Western Confederacy (1791–1795)"
+    ],
+    "battle-of-fallen-timbers-treaty-of-greenville-1794-1795": [
+      "4.4:Battle of Fallen Timbers (1794) / Treaty of Greenville (1795)"
+    ],
+    "tecumseh": [
+      "4.4:Tecumseh"
+    ],
+    "tenskwatawa-the-prophet": [
+      "4.4:Tenskwatawa (\"the Prophet\")"
+    ],
+    "prophetstown": [
+      "4.4:Prophetstown"
+    ],
+    "battle-of-tippecanoe-1811": [
+      "4.4:Battle of Tippecanoe (1811)"
+    ],
+    "william-henry-harrison": [
+      "4.4:William Henry Harrison"
+    ],
+    "battle-of-the-thames-1813": [
+      "4.4:Tecumseh's death (1813)"
+    ],
+    "red-sticks": [
+      "4.4:Red Sticks / Creek civil war"
+    ],
+    "battle-of-horseshoe-bend-1814": [
+      "4.4:Battle of Horseshoe Bend (1814)"
+    ],
+    "treaty-of-fort-jackson-1814": [
+      "4.4:Treaty of Fort Jackson"
+    ],
+    "negro-fort-1816": [
+      "4.4:\"Negro Fort\" (1816)",
+      "4.12:\"Negro Fort\" (1816)"
+    ],
+    "first-seminole-war-1817-1818": [
+      "4.4:First Seminole War (1818)"
+    ],
+    "james-madison": [
+      "4.2:James Madison"
+    ],
+    "war-hawks": [
+      "4.4:War Hawks"
+    ],
+    "war-of-1812-1812-1815": [
+      "4.4:War of 1812"
+    ],
+    "free-trade-and-sailors-rights": [
+      "4.4:\"Free Trade and Sailors' Rights!\""
+    ],
+    "invasion-of-canada-1812-1813": [
+      "4.4:Invasion of Canada"
+    ],
+    "uss-constitution-old-ironsides": [
+      "4.4:USS Constitution (\"Old Ironsides\")"
+    ],
+    "dont-give-up-the-ship": [
+      "4.4:\"Don't give up the ship!\""
+    ],
+    "battle-of-lake-champlain-1814": [
+      "4.4:Lake Champlain / Plattsburgh (1814)"
+    ],
+    "burning-of-washington-1814": [
+      "4.4:Burning of Washington (Aug. 24, 1814)"
+    ],
+    "fort-mchenry-1814": [
+      "4.4:Fort McHenry / Francis Scott Key"
+    ],
+    "hartford-convention-1814-1815": [
+      "4.4:Hartford Convention (1814)"
+    ],
+    "treaty-of-ghent-1814": [
+      "4.4:Treaty of Ghent (Dec. 24, 1814)"
+    ],
+    "battle-of-new-orleans-1815": [
+      "4.4:Battle of New Orleans (Jan. 1815)"
+    ],
+    "collapse-of-the-federalist-party": [
+      "4.2:Death of the Federalist Party",
+      "4.2:Rufus King"
+    ],
+    "james-monroe": [],
+    "era-of-good-feelings": [
+      "4.3:\"Era of good feelings\""
+    ],
+    "postwar-nationalism": [
+      "4.3:American nationalism"
+    ],
+    "american-system": [
+      "4.3:American System"
+    ],
+    "henry-clay": [
+      "4.3:Henry Clay"
+    ],
+    "tariff-of-1816": [
+      "4.3:Protective tariff"
+    ],
+    "internal-improvements": [
+      "4.3:Internal improvements"
+    ],
+    "panic-of-1819": [
+      "4.3:Panic of 1819"
+    ],
+    "westward-expansion": [
+      "4.1:Westward expansion",
+      "4.3:New western states"
+    ],
+    "rush-bagot-agreement-1817": [],
+    "convention-of-1818": [],
+    "adams-onis-treaty-1819": [
+      "4.4:Adams-Onís Treaty (1819)"
+    ],
+    "john-quincy-adams": [
+      "4.4:John Quincy Adams"
+    ],
+    "monroe-doctrine-1823": [
+      "4.4:Monroe Doctrine (1823)"
+    ],
+    "antebellum-period": [
+      "4.1:Antebellum period"
+    ],
+    "sectionalism": [
+      "4.1:Sectionalism"
+    ],
+    "virginia-dynasty": [
+      "4.3:Virginia dynasty"
+    ],
+    "missouri-crisis-1819-1820": [
+      "4.3:Missouri Crisis (1819–1820)",
+      "4.3:Balance of free and slave states"
+    ],
+    "tallmadge-amendment-1819": [
+      "4.3:James Tallmadge / Tallmadge Amendment",
+      "4.3:Sectional voting"
+    ],
+    "missouri-compromise-1820": [
+      "4.3:Missouri Compromise (1820)"
+    ],
+    "36-30-line": [
+      "4.3:36°30′ line",
+      "4.3:Jesse Thomas"
+    ],
+    "fire-bell-in-the-night": [
+      "4.3:\"Fire bell\""
+    ],
+    "jacksonian-democracy": [
+      "4.1:Democratization"
+    ],
+    "property-qualifications-for-voting": [
+      "4.2:Property qualifications",
+      "4.2:Easier land purchases",
+      "4.7:Lowered property requirements"
+    ],
+    "new-york-constitution-of-1821": [
+      "4.7:New York constitution of 1821"
+    ],
+    "pennsylvania-constitution-of-1838": [
+      "4.7:Pennsylvania constitution of 1838"
+    ],
+    "black-disfranchisement": [
+      "4.7:Black disfranchisement"
+    ],
+    "election-of-1824": [
+      "4.7:Election of 1824",
+      "4.7:House of Representatives decides",
+      "4.7:William H. Crawford"
+    ],
+    "corrupt-bargain": [
+      "4.7:\"Corrupt bargain\""
+    ],
+    "election-of-1828": [
+      "4.7:Election of 1828"
+    ],
+    "andrew-jackson": [
+      "4.8:Andrew Jackson (1767–1845)"
+    ],
+    "old-hickory": [
+      "4.7:\"Old Hickory\" / frontier image"
+    ],
+    "spoils-system": [],
+    "kitchen-cabinet": [],
+    "eaton-affair-petticoat-affair": [
+      "4.8:Eaton Affair (\"Petticoat Affair\")",
+      "4.8:Cabinet resignations"
+    ],
+    "democratic-party": [
+      "4.7:Democratic Party"
+    ],
+    "whig-party": [
+      "4.7:Whig Party"
+    ],
+    "national-republicans": [
+      "4.7:National Republicans"
+    ],
+    "anti-masonic-party": [
+      "4.7:Anti-Masonic Party",
+      "4.7:William Morgan"
+    ],
+    "second-party-system": [],
+    "martin-van-buren": [
+      "4.7:Martin Van Buren"
+    ],
+    "election-of-1840": [
+      "4.7:Election of 1840",
+      "4.7:\"Log cabin and hard cider\"",
+      "4.7:\"Tippecanoe and Tyler Too\"",
+      "4.7:Harrisburg convention (1839)"
+    ],
+    "john-tyler": [
+      "4.7:John Tyler / \"His Accidency\""
+    ],
+    "alexis-de-tocqueville": [
+      "4.6:Alexis de Tocqueville"
+    ],
+    "john-c-calhoun": [
+      "4.3:John C. Calhoun"
+    ],
+    "tariff-of-1828-tariff-of-abominations": [
+      "4.8:Tariff of 1828 (\"Tariff of Abominations\")"
+    ],
+    "south-carolina-exposition-and-protest-1828": [
+      "4.8:South Carolina Exposition and Protest"
+    ],
+    "virginia-and-kentucky-resolutions-1798-1799": [
+      "4.8:Virginia and Kentucky Resolutions"
+    ],
+    "compact-theory": [
+      "4.8:Compact theory"
+    ],
+    "nullification": [
+      "4.8:Nullification"
+    ],
+    "states-rights": [
+      "4.8:States' rights / secession"
+    ],
+    "webster-hayne-debate-1830": [],
+    "daniel-webster": [],
+    "jefferson-day-dinner-toasts-1830": [
+      "4.8:1832 Jefferson dinner toasts"
+    ],
+    "ordinance-of-nullification-1832": [
+      "4.8:Tariff of 1832 / Ordinance of Nullification"
+    ],
+    "force-bill-1833": [
+      "4.8:Force Bill"
+    ],
+    "compromise-tariff-of-1833": [
+      "4.8:Compromise tariff"
+    ],
+    "second-bank-of-the-united-states": [
+      "4.8:Second Bank of the United States",
+      "4.3:Bank of the United States"
+    ],
+    "nicholas-biddle": [
+      "4.8:Nicholas Biddle"
+    ],
+    "bank-war": [
+      "4.8:Bank War"
+    ],
+    "bank-veto-1832": [
+      "4.8:Bank veto (July 1832)",
+      "4.8:\"Monied aristocracy\""
+    ],
+    "pet-banks-1833": [
+      "4.8:Pet banks (1833)"
+    ],
+    "king-andrew-the-first": [
+      "4.8:\"King Andrew the First\""
+    ],
+    "maysville-road-veto-1830": [],
+    "specie-circular-1836": [
+      "4.8:Specie Circular (July 1836)",
+      "4.8:Speculative boom (1834–1836)"
+    ],
+    "panic-of-1837": [
+      "4.8:Panic of 1837",
+      "4.8:State defaults"
+    ],
+    "independent-treasury": [],
+    "indian-removal-act-1830": [
+      "4.8:Indian Removal Act (1830)",
+      "4.13:Indian removal and cotton land"
+    ],
+    "five-tribes": [],
+    "cherokee-nation": [
+      "4.8:Cherokee Nation"
+    ],
+    "sequoyah": [],
+    "john-ross": [],
+    "cherokee-nation-v-georgia-1831": [],
+    "worcester-v-georgia-1832": [
+      "4.8:Worcester v. Georgia (1832)"
+    ],
+    "treaty-of-new-echota-1835": [],
+    "trail-of-tears-1838-1839": [
+      "4.8:Trail of Tears (1838)"
+    ],
+    "indian-territory": [],
+    "jeremiah-evarts": [
+      "4.8:Jeremiah Evarts (\"William Penn\")"
+    ],
+    "catharine-beechers-circular-1829": [
+      "4.8:Catharine Beecher's \"Circular\" (1829)"
+    ],
+    "abcfm-american-board-of-commissioners-for-foreign-missions": [
+      "4.11:ABCFM (1810)"
+    ],
+    "black-hawk-war-1832": [],
+    "second-seminole-war-1835-1842": [],
+    "market-revolution": [
+      "4.1:Market revolution"
+    ],
+    "transportation-revolution": [
+      "4.1:Transportation Revolution",
+      "4.5:St. Louis and Chicago"
+    ],
+    "industrialization": [
+      "4.1:Industrialization"
+    ],
+    "urbanization": [
+      "4.1:Urbanization"
+    ],
+    "national-road-cumberland-road": [
+      "4.5:National Road"
+    ],
+    "erie-canal-1825": [
+      "4.5:Erie Canal (1825)",
+      "4.5:Ohio canals",
+      "4.5:New York City"
+    ],
+    "steamboats": [
+      "4.5:Steam power",
+      "4.5:Steamboat New Orleans (1811–1812)"
+    ],
+    "robert-fulton": [
+      "4.5:Robert Fulton (1807)"
+    ],
+    "baltimore-ohio-railroad-1827": [
+      "4.5:Baltimore & Ohio Railroad (1827)"
+    ],
+    "telegraph-1844": [
+      "4.5:Samuel Morse / telegraph (1843–1844)"
+    ],
+    "cyrus-mccormick": [
+      "4.5:Cyrus McCormick"
+    ],
+    "john-deere": [
+      "4.5:John Deere"
+    ],
+    "interchangeable-parts": [],
+    "samuel-slater": [
+      "4.5:Samuel Slater (1789)"
+    ],
+    "putting-out-system": [
+      "4.5:Putting-out system"
+    ],
+    "francis-cabot-lowell": [
+      "4.5:Francis Cabot Lowell / Paul Moody"
+    ],
+    "lowell-system-waltham-lowell-system": [
+      "4.5:Waltham-Lowell System",
+      "4.5:Lowell, Massachusetts (1821)",
+      "4.5:Textile corporations"
+    ],
+    "corporations-and-limited-liability": [
+      "4.5:Business corporation / limited liability",
+      "4.5:Jefferson on \"monied corporations\""
+    ],
+    "wage-labor": [
+      "4.5:Wage labor / cash economy",
+      "4.6:Decline of apprenticeship"
+    ],
+    "free-labor-ideology": [
+      "4.1:Free labor ideology",
+      "4.6:Free labor (Rev. Alonzo Potter)"
+    ],
+    "mill-girls-lowell-girls": [
+      "4.6:\"Mill girls\""
+    ],
+    "lowell-strikes-1834-1836": [
+      "4.6:Lowell \"turnouts\" (1834, 1836)"
+    ],
+    "sarah-bagley": [
+      "4.6:Sarah Bagley / Lowell Female Labor Reform Association",
+      "4.6:Voice of Industry"
+    ],
+    "ten-hour-movement": [
+      "4.6:Ten-Hour Movement"
+    ],
+    "van-burens-ten-hour-order-1840": [
+      "4.6:Van Buren's ten-hour order"
+    ],
+    "massachusetts-child-labor-law-1842": [
+      "4.6:Massachusetts child labor law (1842)"
+    ],
+    "seth-luther": [
+      "4.6:Seth Luther"
+    ],
+    "federal-society-of-journeymen-cordwainers": [
+      "4.6:Federal Society of Journeymen Cordwainers"
+    ],
+    "closed-shop": [
+      "4.6:Closed shop"
+    ],
+    "commonwealth-v-hunt-1842": [
+      "4.6:Commonwealth v. Hunt (1842)"
+    ],
+    "antebellum-immigration-1820-1860": [
+      "4.6:Immigration (1820–1860)",
+      "4.1:European migration"
+    ],
+    "irish-potato-famine": [
+      "4.6:Irish Famine"
+    ],
+    "german-immigrants": [
+      "4.6:German immigrants / \"German Triangle\""
+    ],
+    "chain-migration": [
+      "4.6:Chain migration"
+    ],
+    "revolutions-of-1848": [
+      "4.6:Revolutions of 1848"
+    ],
+    "nativism": [
+      "4.1:Nativism",
+      "4.6:Nativism",
+      "4.6:Samuel F. B. Morse on Catholics",
+      "4.6:Lyman Beecher on immigrants"
+    ],
+    "ursuline-convent-burning-1834": [
+      "4.6:Convent attack near Boston (1834)"
+    ],
+    "know-nothings-american-party": [
+      "4.6:Know-Nothings (American Party)"
+    ],
+    "new-middle-class": [
+      "4.6:New middle class",
+      "4.9:\"Respectable\" middle-class culture"
+    ],
+    "separate-spheres": [
+      "4.6:Separate spheres"
+    ],
+    "cult-of-domesticity-true-womanhood": [
+      "4.6:Cult of Domesticity / True Womanhood"
+    ],
+    "coverture": [
+      "4.6:Coverture"
+    ],
+    "companionate-marriage": [
+      "4.6:Companionate marriage"
+    ],
+    "republican-motherhood": [
+      "4.2:Republican Motherhood"
+    ],
+    "second-great-awakening": [
+      "4.10:Second Great Awakening",
+      "4.1:Second Great Awakening",
+      "4.10:Reaction to the Enlightenment"
+    ],
+    "camp-meetings": [
+      "4.10:Camp meetings"
+    ],
+    "cane-ridge-revival-1801": [
+      "4.10:Cane Ridge Revival (Aug. 1801)"
+    ],
+    "methodists-baptists-and-presbyterians": [
+      "4.10:Methodists, Baptists, Presbyterians",
+      "4.10:Methodist Episcopal Church (1784)"
+    ],
+    "circuit-riders": [
+      "4.10:Circuit riders"
+    ],
+    "predestination-calvinism": [
+      "4.10:Orthodox Calvinism / predestination"
+    ],
+    "lyman-beecher": [
+      "4.10:Lyman Beecher"
+    ],
+    "charles-grandison-finney": [
+      "4.10:Charles Grandison Finney"
+    ],
+    "burned-over-district": [
+      "4.10:Burned-Over District"
+    ],
+    "perfectionism": [
+      "4.10:Perfectionism"
+    ],
+    "postmillennialism": [
+      "4.10:Postmillennialism"
+    ],
+    "disinterested-benevolence": [
+      "4.10:Disinterested benevolence"
+    ],
+    "spiritual-egalitarianism": [
+      "4.10:Spiritual egalitarianism",
+      "4.10:\"Call to preach\""
+    ],
+    "restoration-movement-campbell-and-stone": [
+      "4.10:Alexander Campbell / Barton Stone"
+    ],
+    "seventh-day-adventists": [
+      "4.10:Seventh-Day Adventist Church"
+    ],
+    "joseph-smith": [
+      "4.10:Joseph Smith / Book of Mormon (1830)",
+      "4.10:Smith's murder (1844)"
+    ],
+    "mormons-latter-day-saints": [
+      "4.10:Nauvoo, Illinois",
+      "4.10:Polygamy (plural marriage)"
+    ],
+    "benevolent-empire": [
+      "4.11:Benevolent empire (1815–1861)",
+      "4.11:Voluntary associations",
+      "4.11:Middle-class women reformers"
+    ],
+    "temperance-movement": [
+      "4.11:Temperance movement",
+      "4.11:Irish Catholic resentment"
+    ],
+    "american-temperance-society-1826": [
+      "4.11:American Temperance Society (1826)"
+    ],
+    "cold-water-army": [
+      "4.11:Cold Water Army"
+    ],
+    "sabbatarianism": [
+      "4.11:Sabbatarians"
+    ],
+    "moral-reform-societies": [
+      "4.11:Moral reform societies"
+    ],
+    "penitentiary-movement": [
+      "4.11:Eastern State Penitentiary / panopticon"
+    ],
+    "asylum-movement": [
+      "4.11:Asylums, orphanages, dispensaries"
+    ],
+    "horace-mann": [],
+    "american-bible-society-and-american-tract-society": [
+      "4.11:American Bible Society / American Tract Society",
+      "4.9:Printing technology (1830s)"
+    ],
+    "american-home-missionary-society": [
+      "4.11:American Home Missionary Society"
+    ],
+    "shakers": [
+      "4.10:Shakers"
+    ],
+    "oneida-community": [
+      "4.11:John Humphrey Noyes / Oneida"
+    ],
+    "quakers": [
+      "4.11:Quakers"
+    ],
+    "american-colonization-society": [
+      "4.11:Colonization movement"
+    ],
+    "immediatism": [
+      "4.11:Immediatism"
+    ],
+    "moral-suasion": [
+      "4.11:Moral suasion"
+    ],
+    "william-lloyd-garrison": [
+      "4.11:William Lloyd Garrison / The Liberator (1831)"
+    ],
+    "american-anti-slavery-society-1833": [
+      "4.11:American Anti-Slavery Society (1833)"
+    ],
+    "arthur-and-lewis-tappan": [
+      "4.11:Arthur and Lewis Tappan"
+    ],
+    "theodore-dwight-weld": [
+      "4.11:Theodore Dwight Weld"
+    ],
+    "john-greenleaf-whittier": [
+      "4.11:John Greenleaf Whittier"
+    ],
+    "wendell-phillips": [
+      "4.11:Wendell Phillips"
+    ],
+    "frederick-douglass": [
+      "4.12:Frederick Douglass",
+      "4.12:Black activists' transatlantic ties"
+    ],
+    "sojourner-truth": [
+      "4.12:Sojourner Truth"
+    ],
+    "david-walkers-appeal-1829": [
+      "4.12:David Walker / Appeal (1829)"
+    ],
+    "james-forten": [
+      "4.7:James Forten",
+      "4.12:James Forten / Letters from a Man of Colour (1813)"
+    ],
+    "slave-narratives": [
+      "4.9:Slave narratives"
+    ],
+    "postal-campaign-1835": [
+      "4.11:Postal campaign (1835)"
+    ],
+    "gag-rule-1836-1844": [
+      "4.11:Gag rule (1836)",
+      "4.11:Great Petition Campaign (1836)"
+    ],
+    "elijah-lovejoy": [
+      "4.11:Elijah Lovejoy"
+    ],
+    "pennsylvania-hall-1838": [
+      "4.11:Pennsylvania Hall (1838)",
+      "4.11:Anti-abolition riot in Philadelphia"
+    ],
+    "liberty-party": [
+      "4.11:Liberty Party (1839) / James G. Birney"
+    ],
+    "abby-kelley": [
+      "4.11:1840 split / Abby Kelly"
+    ],
+    "female-antislavery-societies": [
+      "4.11:Female Anti-Slavery Society / free-produce boycotts"
+    ],
+    "amistad-case-1841": [],
+    "female-seminaries": [
+      "4.6:Female academies / women teachers",
+      "4.11:Emma Willard / Troy Female Seminary",
+      "4.11:Catharine Beecher / Hartford Female Seminary",
+      "4.11:Mary Lyon / Mount Holyoke"
+    ],
+    "grimke-sisters": [
+      "4.11:Angelina and Sarah Grimké"
+    ],
+    "world-anti-slavery-convention-1840": [
+      "4.11:World Anti-Slavery Convention (London, 1840)"
+    ],
+    "seneca-falls-convention-1848": [
+      "4.11:Seneca Falls Convention (1848)"
+    ],
+    "declaration-of-sentiments-1848": [
+      "4.11:Declaration of Sentiments"
+    ],
+    "elizabeth-cady-stanton": [
+      "4.11:Elizabeth Cady Stanton / Lucretia Mott"
+    ],
+    "lucretia-mott": [
+      "4.11:Elizabeth Cady Stanton / Lucretia Mott"
+    ],
+    "susan-b-anthony": [
+      "4.11:Susan B. Anthony"
+    ],
+    "married-womens-property-laws": [
+      "4.11:Married women's property laws"
+    ],
+    "unitarianism": [
+      "4.9:Unitarianism"
+    ],
+    "transcendentalism": [
+      "4.9:Transcendentalism",
+      "4.9:Transcendental Club (1836)",
+      "4.9:British Romanticism / German idealism"
+    ],
+    "ralph-waldo-emerson": [
+      "4.9:Ralph Waldo Emerson",
+      "4.9:\"The American Scholar\" (1837)",
+      "4.9:\"Self-Reliance\" (1841)"
+    ],
+    "henry-david-thoreau": [
+      "4.9:Henry David Thoreau"
+    ],
+    "margaret-fuller": [
+      "4.9:Margaret Fuller"
+    ],
+    "brook-farm": [
+      "4.9:George Ripley / Brook Farm",
+      "4.9:Fourierism"
+    ],
+    "lyceum-movement": [
+      "4.9:Lyceum"
+    ],
+    "hudson-river-school": [],
+    "blackface-minstrelsy": [
+      "4.9:Thomas Dartmouth Rice / \"Jim Crow\""
+    ],
+    "bobalition-broadsides": [
+      "4.9:\"Bobalition\" broadsides"
+    ],
+    "cotton-gin-1793": [
+      "4.5:Eli Whitney / cotton gin (1794)"
+    ],
+    "king-cotton-cotton-kingdom": [
+      "4.1:Cotton Revolution",
+      "4.13:Global cotton trade",
+      "4.13:Cotton exports"
+    ],
+    "cotton-belt-black-belt": [
+      "4.13:Cotton Belt / Black Belt",
+      "4.13:Five main cotton states (1835)",
+      "4.13:Cotton \"mania\" / \"new El Dorado\""
+    ],
+    "short-staple-cotton": [
+      "4.13:Long-staple vs. short-staple cotton"
+    ],
+    "petit-gulf-cotton-1833": [
+      "4.13:Petit Gulf cotton (1833)"
+    ],
+    "end-of-the-atlantic-slave-trade-1808": [
+      "4.12:End of the international slave trade (1808)"
+    ],
+    "domestic-slave-trade": [
+      "4.13:Interregional slave trade",
+      "4.13:Upper South vs. Lower South"
+    ],
+    "sold-down-the-river": [
+      "4.13:\"Downriver\""
+    ],
+    "new-orleans-slave-market": [
+      "4.13:New Orleans slave market (St. Louis Exchange)",
+      "4.13:\"Prime field hands\""
+    ],
+    "enslaved-people-as-collateral": [
+      "4.13:Enslaved people as collateral",
+      "4.13:Credit from Northern and British banks"
+    ],
+    "proslavery-positive-good-argument": [
+      "4.13:Proslavery ideology"
+    ],
+    "peculiar-institution": [
+      "4.8:Calhoun's \"peculiar domestick institution\""
+    ],
+    "curse-of-ham": [
+      "4.13:Curse of Ham"
+    ],
+    "de-bows-review": [
+      "4.13:De Bow's Review / American Cotton Planter"
+    ],
+    "plantation-mistress": [
+      "4.13:Plantation mistresses",
+      "4.13:Southern womanhood / female purity"
+    ],
+    "southern-honor-culture": [
+      "4.13:Masculine honor",
+      "4.13:Dueling",
+      "4.13:Rough-and-tumble fighting"
+    ],
+    "slave-religion": [
+      "4.13:Enslaved people's Christianity"
+    ],
+    "enslaved-kinship-networks": [
+      "4.13:Kinship networks"
+    ],
+    "anti-literacy-laws": [
+      "4.13:Anti-literacy laws",
+      "4.13:Repression after Turner"
+    ],
+    "gabriels-rebellion-1800": [
+      "4.12:Gabriel's Rebellion (1800)",
+      "4.12:Restrictions on free people of color"
+    ],
+    "denmark-vesey": [
+      "4.12:Denmark Vesey",
+      "4.8:Denmark Vesey conspiracy"
+    ],
+    "nat-turners-rebellion-1831": [
+      "4.13:Nat Turner's Rebellion (Aug. 1831)"
+    ],
+    "harriet-jacobs": [
+      "4.13:Harriet Jacobs / Incidents in the Life of a Slave Girl"
+    ],
+    "celia-1855": [
+      "4.13:Celia (1855)"
+    ],
+    "william-wells-brown": [
+      "4.13:William Wells Brown"
+    ],
+    "gradual-emancipation": [
+      "4.12:Gradual emancipation",
+      "4.12:Indenture of freed children",
+      "4.12:Slavery's slow end in the North",
+      "4.11:Gradual vs. conditional emancipation"
+    ],
+    "free-black-communities": [
+      "4.12:Free Black population growth",
+      "4.12:Black mutual aid, churches and print"
+    ],
+    "african-methodist-episcopal-ame-church": [],
+    "prince-hall": [
+      "4.12:Prince Hall"
+    ],
+    "benjamin-banneker": [
+      "4.12:Benjamin Banneker (1791)"
+    ],
+    "jeffersons-notes-on-the-state-of-virginia": [
+      "4.12:Jefferson's Notes on the State of Virginia"
+    ],
+    "scientific-racism": [
+      "4.12:Enlightenment racial classification",
+      "4.12:Polygenesis"
+    ],
+    "john-russwurm": [
+      "4.12:John Russwurm (1826)"
+    ],
+    "the-colored-american": [
+      "4.12:Colored American"
+    ],
+    "anticolonization": [
+      "4.12:Anticolonization"
+    ],
+    "free-people-of-color-in-the-south": [
+      "4.12:Free people of color (South)"
+    ]
+  },
+  "dropped": [
+    {
+      "source": "4.1:\"Panics\"",
+      "reason": "General label; the Panic of 1819 and the Panic of 1837 have their own cards."
+    },
+    {
+      "source": "4.2:Thomas Paine",
+      "reason": "Revolutionary-era writer (Unit 3); the entry is a single quotation."
+    },
+    {
+      "source": "4.2:Mercy Otis Warren",
+      "reason": "Ratification-era writer (Unit 3)."
+    },
+    {
+      "source": "4.2:Women in partisan politics",
+      "reason": "A trend illustrated by examples, not a term."
+    },
+    {
+      "source": "4.3:New post offices",
+      "reason": "A statistic, not a term."
+    },
+    {
+      "source": "4.5:Margaret Dwight / Frances Trollope",
+      "reason": "Travel writers quoted as examples, not core terms."
+    },
+    {
+      "source": "4.5:Counterfeit bills / \"confidence man\"",
+      "reason": "A cultural theme, not a standard term."
+    },
+    {
+      "source": "4.6:Women as consumers",
+      "reason": "A trend, not a term."
+    },
+    {
+      "source": "4.6:Romantic Childhood",
+      "reason": "The textbook’s descriptive phrase, not a standard term."
+    },
+    {
+      "source": "4.6:House of Refuge (NYC)",
+      "reason": "A single local institution."
+    },
+    {
+      "source": "4.6:Boston Carpenters' Union (1825)",
+      "reason": "A single local union; early unions are covered by the Workers & Labor cards."
+    },
+    {
+      "source": "4.7:\"Vices of democracy\"",
+      "reason": "1787 Constitutional Convention (Unit 3)."
+    },
+    {
+      "source": "4.7:Elbridge Gerry",
+      "reason": "1787 Constitutional Convention (Unit 3)."
+    },
+    {
+      "source": "4.7:Benjamin Rush",
+      "reason": "Founding-era quotation (Unit 3)."
+    },
+    {
+      "source": "4.7:Petitions and public criticism",
+      "reason": "A practice, not a term."
+    },
+    {
+      "source": "4.7:Women's exclusion and influence",
+      "reason": "A theme, not a term."
+    },
+    {
+      "source": "4.9:Elizabeth Peabody / Bronson Alcott",
+      "reason": "Minor members of the Transcendental Club, not core terms."
+    },
+    {
+      "source": "4.9:Uncle Tom's Cabin (1852)",
+      "reason": "Published in 1852 (Unit 5)."
+    },
+    {
+      "source": "4.9:Children's magazines",
+      "reason": "Not a standard term."
+    },
+    {
+      "source": "4.10:Congregationalists / Episcopalians",
+      "reason": "Mentioned in passing; the revival churches have their own card."
+    },
+    {
+      "source": "4.10:Spiritual marketplace",
+      "reason": "The textbook’s descriptive phrase, not a standard term."
+    },
+    {
+      "source": "4.10:First Great Awakening / George Whitefield",
+      "reason": "Colonial era (Unit 2)."
+    },
+    {
+      "source": "4.11:Transatlantic reform",
+      "reason": "A connection between movements, not a term."
+    },
+    {
+      "source": "4.12:Henry Moss",
+      "reason": "A single anecdote; the idea is covered by the Scientific racism card."
+    },
+    {
+      "source": "4.13:Southern urban growth",
+      "reason": "A trend, not a term."
+    },
+    {
+      "source": "4.13:Southern urban middle class",
+      "reason": "Mentioned in passing."
+    },
+    {
+      "source": "4.13:Enslaved population (1860)",
+      "reason": "A statistic (about 4 million people), not a term."
+    }
+  ],
+  "corrections": [
+    {
+      "source": "4.3:Bank of the United States",
+      "issue": "Says the bank was “chartered 1811 and again in 1816.” The First Bank was chartered in 1791 and its charter expired in 1811; the Second Bank was chartered in 1816.",
+      "card": "second-bank-of-the-united-states"
+    },
+    {
+      "source": "4.8:1832 Jefferson dinner toasts",
+      "issue": "The Jackson–Calhoun toasts were at the Jefferson Day dinner of April 1830, not 1832.",
+      "card": "jefferson-day-dinner-toasts-1830"
+    },
+    {
+      "source": "4.4:Treaty of Fort Jackson",
+      "issue": "Gives “about 14 million acres”; the figure is usually cited as about 21–23 million. The card describes the cession without a number.",
+      "card": "treaty-of-fort-jackson-1814"
+    },
+    {
+      "source": "4.5:Erie Canal (1825)",
+      "issue": "Gives 350 miles; the canal is usually given as 363 miles. The card says “about 360 miles.”",
+      "card": "erie-canal-1825"
+    },
+    {
+      "source": "4.5:Steamboat New Orleans (1811–1812)",
+      "issue": "Says the boat ran “to New Orleans and back”; it is usually described as never returning upriver to Pittsburgh. The card says it ran from Pittsburgh down to New Orleans.",
+      "card": "steamboats"
+    },
+    {
+      "source": "4.5:Eli Whitney / cotton gin (1794)",
+      "issue": "1794 is the patent year; Whitney built the gin in 1793. The card uses 1793.",
+      "card": "cotton-gin-1793"
+    },
+    {
+      "source": "4.11:1840 split / Abby Kelly",
+      "issue": "Her name is usually spelled Abby Kelley. The card uses Kelley and accepts either spelling in Type mode.",
+      "card": "abby-kelley"
+    },
+    {
+      "source": "4.4:First Seminole War (1818)",
+      "issue": "The war is usually dated 1817–1818; Jackson’s invasion of Florida was in 1818. The card uses 1817–1818.",
+      "card": "first-seminole-war-1817-1818"
+    }
+  ]
+}
